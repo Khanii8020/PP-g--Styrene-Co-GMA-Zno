@@ -30,7 +30,7 @@ Due to desirable advantages, different kinds of polyhedral oligomeric silsesquio
 
 In this research study, PP was chosen to be the matrix material and OvPOSS was selected as a nanofiller. The OvPOSS shown in Figure 1, was introduced into the base PP with different contents, including 0, 0.5, 1.0, and 2.0 phr by using the solution method [20]. Because the density of OvPOSS is $0.93 \mathrm{~g} / \mathrm{cm}^{3}$, which is much lower than that of inorganic nanofillers, the volume content of OvPOSS was much higher than that of inorganic nanofillers. Finally, the nanocomposites samples of OvPOSS/ PP were manufactured, and then the properties of nanocomposites films were evaluated by undertaking measurements including differential scanning calorimetry (DSC), scanning electron microscopy (SEM), polarised optical microscopy
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-02.jpg?height=348&width=607&top_left_y=2076&top_left_x=276)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-02_348_607_2076_276.jpg)
 FIGURE 1 The chemical structure of octavinyl polyhedral oligomeric silsesquioxane molecular
 
 ## 2 | MATERIALS AND EXPERIMENTS
@@ -85,7 +85,7 @@ $$
 
 where $\Delta H_{m}$ is the melting enthalpy, which is the integral value of the melting procedure from DSC curves, and $\Delta H_{m}^{\infty}$ is the melting enthalpy for complete crystallisation of pure PP with the value of 209 J/g. Through the integration of heat flow on
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-03.jpg?height=1494&width=845&top_left_y=864&top_left_x=1066)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-03_1494_845_864_1066.jpg)
 FIGURE 2 The results of differential scanning calorimetry (DSC) measurements. (a) DSC melting curves and (b) crystallising curves of octavinyl polyhedral oligomeric silsesquioxane/polypropylene nanocomposites with different contents
 
 TABLE 2 Parameters from the differential scanning calorimetry measurement of octavinyl polyhedral oligomeric silsesquioxane (OvPOSS)/ polypropylene (PP) nanocomposites with different contents
@@ -105,10 +105,10 @@ Table 2 summarises the crystallisation temperature $T_{c .}$, the melting peak p
 
 The morphology of the fractured surface of the pure PP and OvPOSS/PP nanocomposites with different contents was observed by SEM. Different contents of the OvPOSS nanofiller were well dispersed in the bulk of OvPOSS/PP nanocomposites with the contents of 0.5, 1.0 and 2.0 phr. Figure 3 shows that the diameters of most OvPOSS agglomerates were less than 100 nm when the doping level was less than 2.0 phr, while the severe agglomerates with the size of over 500 nm appeared in the nanocomposites when the doping level of OvPOSS was increased to 2.0 phr. The latter situation would introduce shallow traps and degrade the electrical performance of PP/OvPOSS. This is because there is a high-volume content of OvPOSS than many kinds of inorganic nanofillers under the same weight percentage in the polymers. This is due to the low density of the OvPOSS nanofiller. The dispersion of the OvPOSS nanofiller in PP means the compatibility of OvPOSS and PP is better than most of the surface-modified inorganic nanofillers under the same volume content without any coupling agent.
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-04.jpg?height=660&width=836&top_left_y=155&top_left_x=1070)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-04_660_836_155_1070.jpg)
 FIGURE $3 \times 10,000$ scanning electron microscopy photograph of the polypropylene (PP) and octavinyl polyhedral oligomeric silsesquioxane (OvPOSS)/PP nanocomposites sample. (a) PP, (b) 0.5 phr OvPOSS/PP, (c) 1.0 phr OvPOSS/PP, and (d) 2.0 phr OvPOSS/PP
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-04.jpg?height=671&width=838&top_left_y=1091&top_left_x=1068)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-04_671_838_1091_1068.jpg)
 FIGURE 4 Polarised optical microscopy observation of the polypropylene (PP) and octavinyl polyhedral oligomeric silsesquioxane (OvPOSS)/PP nanocomposites samples. (a) PP, (b) 0.5 phr OvPOSS/PP, (c) 1.0 phr OvPOSS/PP, and (d) 2.0 phr OvPOSS/PP
 
 Figure 4 indicates the spherulitic morphology of pure PP and OvPOSS/PP nanocomposites. Research has shown that the resistivity of the amorphous region is lower than the crystalline spherulites [21, 22] so that the charge transport mainly occurred in the region between spherulite boundaries. Compared with pure PP, the size of crystal spherulites within OvPOSS/PP nanocomposites decreases with the increasing content of the OvPOSS nanofiller. This means that the number of spherulites is obviously increased and the OvPOSS nanofiller acts as a hetero-nucleating agent. Consequently, the region between the spherulites' boundaries in the OvPOSS/PP nanocomposites is much narrower than pure PP and the length
@@ -120,7 +120,7 @@ Figure 5 shows the DC leakage current of pure PP and OvPOSS/PP nanocomposites un
 
 With reference to Figure 5, the introduction of the OvPOSS nanofiller can significantly suppress the leakage current under a high electric field. In this case, OvPOSS/PP nanocomposites with 1.0 phr OvPOSS nanofiller have the best performance in decreasing the leakage current. It shows that the leakage current can be significantly suppressed from 35.0 pA in pure PP to 5.1 pA in 1.0 phr-OvPOSS-PP nanocomposite under 80 kV/mm at 30°C/min. Compared with pure PP, the DC resistivity of 1.0 phr OvPOSS/PP nanocomposites has the highest DC resistivity, which is 6.9 times higher than PP. It shows that the addition of OvPOSS can efficiently reduce the conductive current and enhance the resistivity of PP under the high electric field at 30°C/min. Compared with other contents of nanocomposites, 1.0 phr OvPOSS demonstrates the lowest leakage current and has the best leakage current suppression.
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-05.jpg?height=690&width=836&top_left_y=1698&top_left_x=163)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-05_692_836_1696_163.jpg)
 FIGURE 5 DC leakage current for polypropylene (PP) and octavinyl polyhedral oligomeric silsesquioxane (OvPOSS)/PP nanocomposites under the DC electric field from 0 to 80 kV/mm at 30°C
 
 When the content of OvPOSS is increased beyond 1.0 phr, the leakage current increases again. Compared with the OvPOSS/PP nanocomposites with 1.0 phr, the nanocomposites with 2.0 phr has more agglomerates with a larger size. Even though the POM detection shows the boundaries scale between crystal spherulites has been decreased significantly, more agglomerates could introduce more defects into the matrix material [24]. These defects can increase the free path of electrons so that the conductivity may increase.
@@ -129,7 +129,7 @@ When the content of OvPOSS is increased beyond 1.0 phr, the leakage current incr
 
 Figure 6 shows the results of thermally stimulated current (TSC) measurements made under the temperature from -100 to100° C/min. In the TSC curve, higher current at higher temperatures means that deeper trapping levels have higher trapping density. According to the journal study [25], the TSC result can be transformed to give a relationship between the trapping level and trapping density. Before adding OvPOSS, due to the glass transition of PP and the detrapping mechanism of electrons, there were two peaks in the thermally stimulated current, namely 0.1 pA at $-10^{\circ} \mathrm{C} / \mathrm{min}$ and 0.14 pA at $84^{\circ} \mathrm{C} / \mathrm{min}$, and these peaks correspond to trapping levels of 0.75 and 0.95 eV. After the introduction of OvPOSS, the peak current about 0.75 pA now occurs at about $92^{\circ} \mathrm{C} / \mathrm{min}$, which is corresponding to 1.05 eV, and the peak values of the current in the OvPOSS/PP nanocomposites are all significantly higher than PP. This indicates that deeper traps with high trapping density are increased by the addition of OvPOSS until the content of OvPOSS reached 1.0 phr. When the content of OvPOSS increases to 2.0 phr, the trapping density of deep traps in nanocomposites is reduced, and this may correspond to the introduction of defects and the reduction of the effective interfacial area by the agglomerates of OvPOSS shown in Figure 3.
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-05.jpg?height=669&width=841&top_left_y=1758&top_left_x=1066)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-05_669_841_1758_1066.jpg)
 FIGURE 6 Thermally stimulated current curve of the octavinyl polyhedral oligomeric silsesquioxane/polypropylene nanocomposites
 
 The electrostatic potential of OvPOSS is calculated by the density functional theory (DFT) in Gaussian view version 5.0, which is based on the first-principle calculation and the basic Schrodinger's equation to get the wave function [26]. The result shown in Figure 7 indicates that the side-groups of the OvPOSS molecule could capture electrons before folding the polymer molecular chains and building an interface between the OvPOSS molecule and the polymer molecular chain. Even though the content of the OvPOSS nanofiller is very low in the OvPOSS/PP nanocomposites with 0.5 phr OvPOSS, much deeper traps can still be introduced into the polymer by the empty orbitals by sp2 hybridisation to capture mobile electrons and the induction effect on the vinyl group due to the strong negativity of oxygen atom. With the increase of the OvPOSS content, the diameter of OvPOSS agglomerates could increase to 100 nm so that the molecular chain of PP can be folded by the agglomerate of the OvPOSS nanofiller. The interface between OvPOSS and PP is therefore facilitated. After that, the interfacial effects can be introduced into the OvPOSS/PP nanocomposites and the trapping level of PP can be enhanced again by these interfaces. In Figure 6, all peak values of thermally stimulated currents $i_{p}$ of the OvPOSS/PP nanocomposites are located at around the temperature of 92°C/min after the addition of OvPOSS, which is related to the electron capture ability at the interface of OvPOSS molecules and its agglomerates with the polymer.
@@ -140,7 +140,7 @@ In terms of trapping characteristics, the improved electrical performance of pol
 
 The DC breakdown strength of the film samples of PP and OvPOSS/PP nanocomposites at room temperature may be described by the Weibull distribution, which can be used to
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-06.jpg?height=429&width=599&top_left_y=1993&top_left_x=403)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-06_429_599_1993_403.jpg)
 FIGURE 7 Electrostatic potential of octavinyl polyhedral oligomeric silsesquioxane by GaussianView
 
 $$
@@ -155,7 +155,7 @@ The characteristic Weibull breakdown strength of PP and OvPOSS/PP nanocomposites
 
 Therefore, it is shown that the addition of the OvPOSS nanofiller can greatly increase the breakdown strength of pure PP under the HVDC condition, especially for the OvPOSS/PP nanocomposites with the content of 1.0 phr due to the introduction of more deep traps according to TSC measurement results in Figure 6. Firstly, the interfacial area between the OvPOSS nanofiller and the base PP is significantly increased in the bulk of nanocomposites due to the smaller size of the OvPOSS nanofiller compared to some traditional inorganic nanofillers. As a result, interface energy is dramatically raised,
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-06.jpg?height=683&width=841&top_left_y=1707&top_left_x=1066)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-06_683_841_1707_1066.jpg)
 FIGURE 8 The breakdown strength of polypropylene/octavinyl polyhedral oligomeric silsesquioxane nanocomposite with different contents
 
 TABLE 3 The DC breakdown strength of pure polypropylene (PP) and OvPOSS/PP nanocomposites
@@ -169,7 +169,7 @@ TABLE 3 The DC breakdown strength of pure polypropylene (PP) and OvPOSS/PP nanoc
 
 Abbreviations: OvPOSS, octavinyl polyhedral oligomeric silsesquioxane; PP, polypropylene.
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-07.jpg?height=1520&width=1743&top_left_y=552&top_left_x=163)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-07_1520_1743_552_163.jpg)
 FIGURE 9 Space charge formation in the film samples under the DC electric field of 60 kV/mm. (a) polypropylene (PP), (b) 0.5 phr octavinyl polyhedral oligomeric silsesquioxane (OvPOSS)/PP, (c) 1.0 phr OvPOSS/PP, and (d) 2.0 phr OvPOSS/PP
 
 and more deep traps can be introduced into the matrix material [2]. Secondly, when the charges flow through the insulation material, the deep traps with high density would reduce the charge injection and trap the charge carriers so that the mobility of hot electrons could be decreased significantly in the solid insulation materials (see Figures 5 and 6). Finally, according to the POM observation in Figure 4, the OvPOSS nanofiller act as a heterogeneous nucleating agent, and this decreases the size of the spherulites of PP and increases the number of spherulites. Then, the low-resistance path in the amorphous region for the mobility of charge carriers is increased after the addition of the OvPOSS nanofiller. Therefore, with a suitable content of the OvPOSS nanofiller, OvPOSS/PP nanocomposites can achieve a significant enhancement of DC breakdown strength.
@@ -180,10 +180,10 @@ For the DC cable insulations, space charge accumulation is one of the key factor
 
 In PEA measurements, the thicknesses of all samples have been controlled between 220 and $240 \mu \mathrm{~m}$ to get enough scale of the thickness domain for observing the space charge characteristics. In pure PP, after the applied electric field, the homocharges injected from the cathode and the anode start to accumulate on the surface between PP and the electrodes. With increasing polarising time, the homocharges from the cathode are injected to deeper depths. Those injected homocharges could increase the local electric field near the anode. Compared with PP, it is found that less charges are injected from the cathode and anode in the OvPOSS/PP nanocomposites with the content of 0.5 and 1.0 phr. This means that the addition of the OvPOSS nanofiller can capture the charges near the electrodes, which increase the potential barrier between the surface of the nanocomposite film and electrodes so that the space charge injected from the cathode and anode are significantly suppressed. However, some space charges flow into the bulk of the OvPOSS/PP nanocomposites with 0.5 and 2.0 phr. This is because there is not enough interfacial effect between pure PP and the OvPOSS nanofiller to capture the space charges under low content and the appearance of
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-08.jpg?height=1522&width=1743&top_left_y=885&top_left_x=163)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-08_1522_1743_885_163.jpg)
 FIGURE 10 Electric field distribution in the film samples under the DC electric field of 60 kV/mm. (a) polypropylene (PP), (b) 0.5 phr octavinyl polyhedral oligomeric silsesquioxane (OvPOSS)/PP, (c) 1.0 phr OvPOSS/PP, and (d) 2.0 phr OvPOSS/PP
 
-![](https://cdn.mathpix.com/cropped/66976fe6-54d0-41b5-ab8c-cb916eb16856-09.jpg?height=626&width=836&top_left_y=155&top_left_x=163)
+![](./images/6e11a747-ed40-402c-8ead-143c6ae06ab3-09_626_836_155_163.jpg)
 FIGURE 11 The electric field distortion of the octavinyl polyhedral oligomeric silsesquioxane/polypropylene nanocomposites
 
 physical defects by agglomeration of the OvPOSS nanofiller under high content. Space charge accumulation is especially worse in the film sample with the 2.0 phr OvPOSS nanofiller than pure PP.

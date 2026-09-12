@@ -82,7 +82,7 @@ To test the wettability of grafted PP, WCA was measured by sessile drop techniqu
 Dynamic Adsorption of $\mathbf{B a}^{\mathbf{2}+}, \mathbf{C u}^{\mathbf{2}+}, \mathbf{N i}^{\mathbf{2}+}, \mathbf{M g}^{\mathbf{2}+}, \mathbf{A l}^{\mathbf{3}+}, \mathbf{C a}^{\mathbf{2}+}$
 The schematic illustration of the dynamic adsorption is
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-3.jpg?height=429&width=799&top_left_y=330&top_left_x=1116)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-3_429_799_330_1116.jpg)
 Scheme 1. Schematic illustration of the dynamic adsorption.
 
 shown in Scheme 1. About 12.0 g of PP-g-(AA-co-AM) nonwoven fabrics were packed into the adsorption column $\left(\Phi=14 \times 19.6 \mathrm{~cm}^{2}\right)$, Artificial contaminated water containing metal ions ( $538 \mathrm{mg} / l$ for $\mathrm{Ba}^{2+}, 596 \mathrm{mg} / l$ for $\mathrm{Cu}^{2+}, 353 \mathrm{mg} / l$ for $\mathrm{Ni}^{2+}, 475 \mathrm{mg} / l$ for $\mathrm{Mg}^{2+}, 556 \mathrm{mg} / l$ for $\mathrm{Al}^{3+}, 501 \mathrm{mg} / l$ for $\mathrm{Ca}^{2+}$, respectively) flowed through the reservoir, valve, flow meter, and adsorption column and went back to reservoir, and then repeated in this way at a rate of $60 l / \mathrm{h}$. The temperature was controlled at 25°C. After 5 h of adsorption, the aqueous samples were taken, and the concentrations were measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES). The uptake capacity (Q) was calculated according to equation (3):
@@ -105,12 +105,12 @@ For adsorption-regeneration experiment studies, metalsloaded PP-g-(AA-co-AM) non
 
 The objective of this study was to explore the mechanism of suspension grafting polymerization of AA and AM inside the PP melt-blown resins. In suspension grafting system, each PP resins could be considered as an independent reaction bed surrounded by the dispersion medium under the condition of high-speed stirring. The grafting polymerization in
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-4.jpg?height=663&width=773&top_left_y=332&top_left_x=215)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-4_663_773_332_215.jpg)
 Scheme 2. Schematic illustration of suspension grafting of AA and AM.
 
 each "reaction bed" mainly occurs in the amorphous area of macromolecular chains of PP, which are swelled by interface agent, namely xylene in this study. Before the grafting polymerization, BPO, AA and AM diffused into the micropores of PP resins under the action of capillarity. Inside the PP resins, the BPO first decomposed into benzoyl radicals and further decomposed into phenyl radicals with strong surface-H abstraction ability because of space limitation [8]. Then, the AA and AM monomers mostly dissolved in a dispersion medium continuously diffused into the interface layer to involve in the grafting polymerization. However, it can be obtained the data from the experiments that the xylene-water partition coefficients of AA and AM were about 1:5 and 1:24, respectively. Thus, AM alone is difficult to directly graft onto the surface of PP resins in the suspension grafting system due to the limitation in mass transfer. Therefore, the presence of a comonomer AA is essential for the grafting of AM onto the PP surface. Besides, the reactivity ratios for
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-4.jpg?height=1357&width=1219&top_left_y=1120&top_left_x=444)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-4_1357_1219_1120_444.jpg)
 Figure 1. Effects of synthesis parameters on GP of AA, AM and GE; (a) polymerization time, (b) ratio of monomers, (c) monomers concentration, (d) amount of water, (e) amount of BPO, and (f) amount of interface agent.
 
 AA and AM were both less than 1 according to Q-e theory, which could provide the possibility of copolymerization. The mechanism of suspension grafting polymerization and molecular formula of the grafting products are shown in Scheme 2.
@@ -131,7 +131,7 @@ The monomer, AA and AM, used in this experiment have polar functional groups. Th
 
 Nonwoven fabrics prepared by melt-blown spinning technique have a high requirement on the flow properties of the substrate materials. The MFR is required to be at least $800 \mathrm{~g} / 10 \mathrm{~min}$ for the melt-blown resins to be spun successfully in our melt-blown machine previously [8]. Many factors, such as the length of grafting chain, intermolecular forces of grafting chain and PP backbone, might have an influence on
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-6.jpg?height=549&width=726&top_left_y=327&top_left_x=237)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-6_549_726_327_237.jpg)
 Figure 2. Effects of GP on MFR.
 
 the MFR of PP resins [20]. The effects of GP on the MFR of PP resins are shown in Figure 2. Obviously, when the total GP was less than 3.1 \%, MFR slightly increased with the increasing GP. Because when the total GP was relatively small, the $\theta$ bond of the PP macromolecule chains, whose $\alpha$ -H was captured by the phenyl radicals decomposed from the initiators, was easy to cleave, leading to the occurrence of $\beta$ -scission. This might result in the reduction of molecular weight, and the fluidity of the grafting products was therefore improved. When the total GP was more that 3.1 \%, MFR decreased sharply with the increase in GP. The intermolecular interaction between the grafting chains strongly increased, which plays a leading role in MFR, and the occurrence of crosslinked action of macromolecule might also lead to the decrease in the fluidity of the grafting products.
@@ -140,18 +140,18 @@ FTIR spectra can be used to characterize the functional groups of polymers. The 
 
 The morphology of the original PP and grafted PP nonwovens were observed by SEM and digital camera, and are shown in Figure 4. The PP-g-(AA-co-AM) nonwovens with a total GP of 8.7 \% have a smooth surface with loose structure, and the average fiber diameter was about $3.6 \mu \mathrm{~m}$ (Figure 4(a)) (diameter distribution: $<2.0 \mu \mathrm{~m}: 9 \%$, 2.0-$3.0 \mu \mathrm{~m}: 21 \%, 3.0-4.0 \mu \mathrm{~m}: 32 \%, 4.0-5.0 \mu \mathrm{~m}: 15 \%, 5.0- 6.0 \mu \mathrm{~m}: 14 \%,>6.0 \mu \mathrm{~m}: 9 \%$ ). And the digital photo also
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-6.jpg?height=549&width=775&top_left_y=349&top_left_x=1118)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-6_549_775_349_1118.jpg)
 Figure 3. FTIR spectra of samples; (a) $\mathrm{GP}=0$, (b) $\mathrm{GP}=4.6 \%$, (c) $\mathrm{GP}=8.7 \%$, and (d) $\mathrm{GP}=16.7 \%$.
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-6.jpg?height=653&width=851&top_left_y=1032&top_left_x=1092)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-6_653_851_1032_1092.jpg)
 Figure 4. Images of (a) PP-g-(AA-co-AM) fibers (SEM: 2000×, $\mathrm{GP}=8.7 \%$ ), (b) PP-g-(AA-co-AM) nonwovens (digital camera, $\mathrm{GP}=8.7 \%$ ), and (c) PP-g-(AA-co-AM) nonwovens (digital camera, $\mathrm{GP}=16.7 \%$ ).
 
 showed that the nonwovens were compact, flexible, well integrated, and had a certain of strength (Figure 4(b)). Comparing to Figure 4(b), however, the nonwovens with a total GP of 16.7 \% (Figure 4(c)) exhibited a very rough surface without any mechanical strength, resulting in the occurrence of deformation and contraction of nonwovens, and breaking up into small pieces. PP with relative low MFR (GP $16.7 \%$, MFR $358 \mathrm{~g} / 10 \mathrm{~min}$ ) that are being processed into nonwoven fabrics has a high requirement for the spinning machine, such as excellent pressure keeping capacity, high temperature of screw extruder and large shearing force, etc. In this work, the melt were difficult to spray from the spinneret leading to no mechanical strength due to the limitation of our laboratory machine used in this experiment. Besides, PP resins with relative high MFR are beneficial to lower energy consumption, extend die life, reduce the
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-7.jpg?height=314&width=1389&top_left_y=323&top_left_x=360)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-7_314_1389_323_360.jpg)
 Figure 5. WCAs of the PP nonwovens; (a) $\mathrm{GP}=0$, (b) $\mathrm{GP}=4.6 \%$, and (c) $\mathrm{GP}=8.7 \%$.
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-7.jpg?height=650&width=808&top_left_y=790&top_left_x=192)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-7_650_808_790_192.jpg)
 Figure 6. TG and DTG (inset) profiles for pristine PP and PP-g-(AA-co-AM).
 
 production of degradation products, and flexibility of use of additives. Therefore, it is believed PP with MFR 358 g/ 10 min are unsuitable for melt-blown spinning in this study.
@@ -159,7 +159,7 @@ WCA measurement is a simple method to investigate the wettability of the modifie
 
 The TG and DTG results for original and grafted PP are shown in Figure 6. The thermogravimetric analysis showed that the variation range of rapid decomposition temperature was between 400 °C and 510 °C in both PP and grafted PP samples, indicating that the PP backbone chains were not destroyed after grafting of AA-co-AM (GP 8.7 \%), and no significant change in thermal stability was found for PP and grafted PP. Continuous weight loss before the rapid decomposition temperature in the grafted PP could be
 
-![](https://cdn.mathpix.com/cropped/e5d44091-24a7-4299-aad6-606fcbcf6d2c-7.jpg?height=614&width=801&top_left_y=806&top_left_x=1111)
+![](./images/d88ae465-d9db-4b65-b554-f924857d32cc-7_614_801_806_1111.jpg)
 Figure 7. The uptake capacity of metal ions on PP-g-(AA-co-AM) nonwovens in continuous dynamic adsorption system.
 
 probably due to the evaporation of residual water content of the hydrophilic groups, i.e., carboxyl and acylamino [26]. When the temperature was above 458 °C, the higher mass retaining of the grafted PP may due to the formation of crosslinking structure between monomers and the decrease in the number of tertiary hydrogens after grafting side chains which are instable.

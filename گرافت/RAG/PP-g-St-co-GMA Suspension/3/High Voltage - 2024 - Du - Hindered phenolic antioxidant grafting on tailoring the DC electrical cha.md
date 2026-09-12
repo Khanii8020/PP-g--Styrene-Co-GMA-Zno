@@ -36,7 +36,7 @@ This paper investigates the effect of melt-free radical grafting with hindered p
 
 In this paper, isotactic polypropylene T30s produced by Sinopec is selected as the base material. The reactive hindered phenolic antioxidant used is acrylic acid 2-tert-butyl-6-(3-tert-butyl-2hydroxy-5-methylbenzyl)-4-methylphenyl ester (AO3052) and the initiator is dicumyl peroxide. The melt-free radical grafting procedure is shown in Figure 1. Grafted samples (PP-g-AO) and blended samples (PP/AO) with a content of 0.5 wt\% are prepared, taking the PP as a comparison. The samples are degassed in a vacuum drying oven for 24 h to remove the residual air and volatile components. Furthermore, to remove the unreacted antioxidants, a small amount of the PP-g-AO is put into xylene to be heated, dissolved and refluxed, until it is completely dissolved. Next, it is poured into an unheated acetone solution, left to precipitate and filtered. Finally, the grafted samples are placed in the vacuum oven, and the sample preparation is completed.
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-02.jpg?height=497&width=841&top_left_y=1961&top_left_x=159)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-02_497_841_1961_159.jpg)
 FIGURE1 Melt-free radical grafting procedure.
 
 ## 2.2 | Sample characteristics
@@ -45,10 +45,10 @@ The PP insulation structures have been characterised by Fourier transform infrar
 
 The oxidative induction time (OIT) is the time at which the catalysed oxidation reaction of a material begins under high temperature and oxygen condition, characterising the thermal stability of the material. Figure 3 shows the OIT for the samples based on the differential scanning calorimetry method at 210°C. The OIT of PP is the lowest among the three samples. However, after adding antioxidants, the OIT of PP/ AO improved to 5.9 min, and the OIT of PP-g-AO further improved to 11.4 min. Thermal stability experiments further confirm that the antioxidants enhance the antioxidant performance of PP, with the grafted samples demonstrating superior effectiveness compared to the blended samples. It is highly probable that the spatial blocking effect of grafted side chains, which indicates that the growth of spherical crystals will stop
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-02.jpg?height=571&width=709&top_left_y=1146&top_left_x=1133)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-02_571_709_1146_1133.jpg)
 FIGURE 2 Fourier transform infrared spectra of the samples.
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-02.jpg?height=541&width=747&top_left_y=1868&top_left_x=1112)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-02_541_747_1868_1112.jpg)
 FIGURE 3 Oxidative induction time of the samples by DSC. DSC, differential scanning calorimetry.
 
 when they encounter grafted side chains, could form a small crystalline structure with complex molecular chain structures in PP, thus preventing the diffusion of oxygen.
@@ -71,7 +71,7 @@ where $\delta$ is the distortion rate, $E_{\text {max }}$ is the maximum electri
 
 The trap energy level distribution of PP samples is tested by the isothermal discharge current (IDC) system. The sample used is $(300 \pm 10) \mu \mathrm{m}$. The sample is polarised by applying a field strength of 30 kV/mm for 45 min at 50°C. Then the sample is depolarised, and the discharge current flowing in the external circuit is measured, from which the trap energy distribution of the sample can be calculated. The trap density function $N_{\mathrm{t}}(E)$ is related to the trap energy $E_{\mathrm{t}}$ as shown in Equation (2).
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-03.jpg?height=282&width=830&top_left_y=2138&top_left_x=166)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-03_282_830_2138_166.jpg)
 FIGURE 4 Crystalline morphology of the samples. (a) PP, (b) PP/AO and (c) PP-g-AO.
 
 $$
@@ -96,7 +96,7 @@ Figure 5 illustrates the relationship between DC conductivity and electric field
 
 It can be found from Figure 5 that the conductivity of the sample shows a linear relationship with the applied electric field with two different slopes on both sides of the threshold electric field, which can be explained by space charge limited current (SCLC). When the electric field is low, the current in the dielectric and the applied voltage conform to Ohm's law, and when the electric field rises to a certain threshold, the traps in the dielectric are filled, at which time the relationship between the current density and the electric field obeys the Mott-Gurney formula as shown in Equation (3).
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-04.jpg?height=639&width=834&top_left_y=157&top_left_x=163)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-04_639_834_157_163.jpg)
 FIGURE 5 Relation between DC conductivity and electric fields at different temperatures. (a) 30°C, (b) 50°C, (c) 70°C and (d) 90°C.
 
 $$
@@ -126,7 +126,7 @@ $$
 
 where $A$ is a constant. $E_{i}$ is the conductivity activation energy of the PP sample, eV. $T$ is the absolute temperature, K. $R$ is the molar gas constant. $\ln \sigma$ is linearly related to $10^{3} T^{-1}$ as shown in Figure 6a. The symbols in the figure are the actual test results,
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-04.jpg?height=641&width=764&top_left_y=153&top_left_x=1104)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-04_641_764_153_1104.jpg)
 FIGURE 6 Relation between DC conductivity and activation energy. (a) Relation between the logarithm of conductivity $(\ln \sigma)$ and the temperature and (b) activation energy of conductivity.
 
 and the lines are obtained by fitting. Due to the influence of low carrier mobility and hopping conduction, the conductivity current at room temperature cannot reach a steady state within the testing duration. Therefore, it is excluded from the curve fitting process. The conductivity activation energy of the samples can be calculated from the slope of the fitted lines as shown in Figure 6b. The relationship between the slopes of the three samples is PP < PP/AO < PP-g-AO, and the fitted line of PP-g-AO shows the highest slope (-9.842), signifying a notable increase in its temperature coefficient of conductivity, attributed to the ionization of polar groups at elevated temperatures. The charge in the trap will escape from the trap when it gains enough energy under the action of the applied electric field, and the energy absorbed in the process is called the conductivity activation energy. Figure 6b shows that PP-g-AO displays the highest conductivity activation energy (0.848), which is a consequence of phenolic hydroxyl groups introducing localised energy levels that serve as charge traps, necessitating higher energy for charge release and transport. Subsequent quantum chemical calculations have also demonstrated this inference.
@@ -135,7 +135,7 @@ and the lines are obtained by fitting. Due to the influence of low carrier mobil
 
 Figure 7 presents the space charge distribution for PP, PP/AO and PP-g-AO at 30°C and 70°C with an applied electric field of 40 kV/mm. At a temperature of 30°C, Figure 7a1 shows that as the polarization time is extended from 60 to 1800 s, significant homopolar charge accumulation near the anode occurs in PP, resulting in an electric field distortion rate of 10.51\%. Similarly, Figure 7a2 shows that a small amount of homopolar charge accumulation also appears near the anode in PP/AO. In contrast, for the grafted sample depicted in Figure 7a3, there is no significant charge accumulation, causing an electric field distortion rate of 59.1\% which is smaller than that of PP. As
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-05.jpg?height=836&width=1694&top_left_y=151&top_left_x=187)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-05_836_1694_151_187.jpg)
 FIGURE 7 (a1)-(a3) Space charge distributions and (a4) electric field distortion rate at 30°C. (b1)-(b3) Space charge distributions and (b4) electric field distortion rate at 70°C.
 
 depicted in Figure 7b1-b3, when the temperature rises to $70^{\circ} \mathrm{C}$, there is a notable increase in space charge density for PP, and the charge injection depth is close to $150 \mu \mathrm{~m}$. In the blended sample, the charge injection depth exceeds $100 \mu \mathrm{~m}$, resulting in an 84.8\% increase in the distortion rate. While, in contrast, the grafted sample continues to show no significant space charge accumulation. As shown in Figure 7b3, the electric field distortions of the three samples are 27.32\%, 17.01\% and 8.76\%, and the grafted sample shows the most uniform electric field distribution characteristics at both temperatures, with the lowest negative impact on the breakdown performance.
@@ -146,7 +146,7 @@ It can be concluded that the injection of space charges leads to electric field 
 
 Figure 8 depicts the DC breakdown strengths of PP, PP/AO, and PP-g-AO at 30, 50, 70, and 90°C. The characteristic DC breakdown strength of PP, PP/AO and PP-g-AO at 30°C exhibits values relatively closer to 380.7, 383.5 and 391.1 kV/ mm, respectively. However, all three samples show a decreasing trend with increasing temperature. At 90°C, the breakdown strength of PP decreases to 230.1 kV/mm, PP/AO decreases to 260.6 kV/mm and PP-g-AO decreases to 302.1 kV/mm. In
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-05.jpg?height=586&width=739&top_left_y=1184&top_left_x=1123)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-05_586_739_1184_1123.jpg)
 FIGURE 8 Relation between DC breakdown strength and temperature with different samples.
 
 addition, the order of DC breakdown strength of the three samples at different temperatures is PP < PP/AO < PP-g- AO. The difference in the breakdown strengths among the samples gradually increases as the temperature increases. This indicates that the antioxidant-grafted sample has a more pronounced effect on the breakdown strength of PP, and this enhancement effect increases with the temperature. In particular, the antioxidant-grafted sample has a greater effect on improving the breakdown properties of PP. It is superior to the antioxidant-blended sample of the same mass fraction.
@@ -166,10 +166,10 @@ where $E_{\text {prestreesed- } t}$ is the breakdown strength measured after het
 
 The polarity reversal breakdown strengths of PP, PP/AO and PP-g-AO at different temperatures show a decreasing trend as the prestressed time increases. Notably, the fastest rate of decrease is observed within the first 10 min of prestressed time. The relationship between the breakdown strengths of the three samples after the same prestressed time follows the order of PP < PP/AO < PP-g-AO. For instance, Figure 10a shows that compared to the non-prestressed sample at 30°C, the breakdown strength of PP after 60 min DC-prestressed decreases from 380.7 to 356 kV/mm, and the coefficient $k$
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-06.jpg?height=596&width=751&top_left_y=1825&top_left_x=208)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-06_596_751_1825_208.jpg)
 FIGURE 9 Relation between DC-prestressed breakdown strength and temperature with different samples.
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-06.jpg?height=2048&width=726&top_left_y=369&top_left_x=1121)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-06_2048_726_369_1121.jpg)
 FIGURE 10 DC-prestressed breakdown strength after hetero-polarity prestressed times at (a) 30°C, (b) 50°C, (c) 70°C and (d) 90°C.
 
 and PP/AO under the same experimental conditions. It can be inferred that PP-g-AO has a higher DC and DC-prestressed breakdown strength.
@@ -184,7 +184,7 @@ Furthermore, the traps within a material are intrinsic properties that do not ch
 
 From the graph, it can be observed that the density of deep traps and shallow traps in PP increases significantly after grafting the antioxidant. The deep traps introduced by the polar groups in the antioxidant can trap carriers continuously, which could reduce their mobility. Meanwhile, the homopolar space charge trapped by the deep trap energy level can form an electric field opposite to the external electric field, which reduces the electric field strength between the electrode and the PP insulation. Thus, the local electric field distortion caused by subsequent space charge injection is inhibited, and the breakdown performance of the sample is further improved [22]. PP-g-AO has a high deep
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-07.jpg?height=550&width=686&top_left_y=1872&top_left_x=233)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-07_550_686_1872_233.jpg)
 FIGURE 11 Trap level distribution characteristics of the samples at 50°C.
 
 ## 4 | DISCUSSION
@@ -193,7 +193,7 @@ FIGURE 11 Trap level distribution characteristics of the samples at 50°C.
 
 The electrostatic potential on the polar group of the antioxidant has a specific charge-trapping effect. To further analyse the impact, the wave function files of PP, AO3052 and PP-gAO are further analysed using Multiwfn. The electrostatic potential is calculated on a surface with an electron density of 0.001 and lattice spacing of 0.25 Bohr. The surface electrostatic potentials of the samples are presented by VMD, as shown in Figure 12. From Figure 12a-c, it is evident that grafting AO3052 introduces both positive and negative potential traps into PP within the energy range of -2 to 2 eV. The highenergy electrons in PP-g-AO experience a Coulomb attraction effect from the positive electrostatic potential on the
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-07.jpg?height=921&width=779&top_left_y=1458&top_left_x=1097)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-07_921_779_1458_1097.jpg)
 FIGURE 12 Surface electrostatic potential distribution of the samples. (a) PP, (b) PP-g-AO3052, (c) AO3052 and (d) surface area of electrostatic potential region.
 
 molecular surface, while the holes experience a Coulomb attraction effect from the negative electrostatic potential. The charge carriers are trapped by the potential traps on the molecular surface, which suppresses the accumulation of space charge, thus reducing the degree of electric field distortion.
@@ -210,10 +210,10 @@ Figure 14a illustrates the energy level and corresponding molecular orbital dist
 
 After contact, the sample/measurement electrode forms a stable thermodynamic system where all the Fermi energy levels coincide and the VL undergoes changes. Figure 14b presents the energy level distribution of the sample/measurement electrode with a DC electric field. Upon contact, as the Fermi energy levels of the SC and Al electrodes are higher than the HOMO energy level of the PP, electronic charges are transferred from the PP material to the electrodes. Under the
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-08.jpg?height=1229&width=773&top_left_y=1146&top_left_x=1100)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-08_1229_773_1146_1100.jpg)
 FIGURE 13 DOS and HOMO-LUMO orbitals of the samples. DOS, density-of-states; HOMO, highest occupied molecular orbital; LUMO, lowest unoccupied molecular orbital.
 
-![](https://cdn.mathpix.com/cropped/7631f4ef-6aaf-44cb-a520-5b1ef2a76119-09.jpg?height=1157&width=817&top_left_y=155&top_left_x=172)
+![](./images/ee25f5e3-1d39-40eb-a91b-cd59b14de297-09_1157_817_155_172.jpg)
 FIGURE 14 Energy level and corresponding molecular orbitals. (a) Before contact and (b) after contact and under electric field.
 
 electric field $\left(+V_{\mathrm{dc}}\right)$, the migration of the charge generated by the energy level differences at the electrode interface will be altered. Affected by the electric field polarisation, the charge injection barriers in the sample/electrode system decrease, which is commonly governed by the Schottky emission effect as expressed in Equation (7),
