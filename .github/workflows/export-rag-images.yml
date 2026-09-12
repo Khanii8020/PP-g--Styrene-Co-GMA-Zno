@@ -54,7 +54,7 @@ jobs:
           done >> artifact-images/manifest.tsv
 
       - name: Upload images artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: rag-images
           path: artifact-images/
