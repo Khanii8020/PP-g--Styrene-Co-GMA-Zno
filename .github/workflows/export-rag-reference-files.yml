@@ -1,0 +1,66 @@
+name: Export RAG reference files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  export-reference-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout RAG article directories only
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            گرافت/RAG/PP-g-St-co-GMA Suspension/1
+            گرافت/RAG/PP-g-St-co-GMA Suspension/2
+            گرافت/RAG/PP-g-St-co-GMA Suspension/3
+            گرافت/RAG/PP-g-St-co-GMA Suspension/4
+            گرافت/RAG/PP-g-St-co-GMA Suspension/5
+            گرافت/RAG/PP-g-St-co-GMA Suspension/6
+            گرافت/RAG/PP-g-St-co-GMA Suspension/7
+            گرافت/RAG/PP-g-St-co-GMA Suspension/8
+            گرافت/RAG/PP-g-St-co-GMA Suspension/9
+            گرافت/RAG/PP-g-St-co-GMA Suspension/10
+          sparse-checkout-cone-mode: false
+
+      - name: Collect reference documents
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf artifact-reference-files
+          mkdir -p artifact-reference-files
+          find "گرافت/RAG/PP-g-St-co-GMA Suspension" -type f \( -iname '*.docx' -o -iname '*.pptx' -o -iname '*.pdf' \) ! -name 'دستوالعمل آزمایشگاهی-سناریو.docx' -print0 |
+            while IFS= read -r -d '' file; do
+              relative="${file#گرافت/RAG/PP-g-St-co-GMA Suspension/}"
+              destination="artifact-reference-files/${relative}"
+              mkdir -p "$(dirname "$destination")"
+              cp "$file" "$destination"
+            done
+
+      - name: Create manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf 'path\tsize_bytes\tsha256\n' > artifact-reference-files/manifest.tsv
+          while IFS= read -r -d '' file; do
+            size="$(stat -c '%s' "$file")"
+            sha="$(sha256sum "$file" | awk '{print $1}')"
+            relative="${file#artifact-reference-files/}"
+            printf '%s\t%s\t%s\n' "$relative" "$size" "$sha" >> artifact-reference-files/manifest.tsv
+          done < <(find artifact-reference-files -type f ! -name 'manifest.tsv' -print0 | sort -z)
+
+      - name: Upload reference-file artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: rag-reference-files
+          path: artifact-reference-files
+          if-no-files-found: error
+          compression-level: 0
+          include-hidden-files: true
