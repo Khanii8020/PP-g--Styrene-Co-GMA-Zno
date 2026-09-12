@@ -1,0 +1,47 @@
+name: Export RAG Images
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  export-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Collect RAG images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifact-images
+          for folder in 1 2 3 4 5 6 7 8 9 10; do
+            source="گرافت/RAG/PP-g-St-co-GMA Suspension/${folder}/images"
+            if [ ! -d "$source" ]; then
+              echo "Missing image directory: $source"
+              exit 1
+            fi
+            cp -R "$source" "artifact-images/${folder}"
+          done
+
+      - name: Create image manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf 'folder\tfilename\tsize_bytes\n' > artifact-images/manifest.tsv
+          find artifact-images -type f ! -name 'manifest.tsv' -printf '%P\t%s\n' | while IFS=$'\t' read -r path size; do
+            folder="${path%%/*}"
+            filename="${path#*/}"
+            printf '%s\t%s\t%s\n' "$folder" "$filename" "$size"
+          done >> artifact-images/manifest.tsv
+
+      - name: Upload images artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rag-images
+          path: artifact-images/
+          retention-days: 7
