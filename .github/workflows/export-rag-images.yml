@@ -11,8 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout RAG image directories only
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            گرافت/RAG/PP-g-St-co-GMA Suspension/1/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/2/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/3/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/4/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/5/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/6/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/7/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/8/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/9/images
+            گرافت/RAG/PP-g-St-co-GMA Suspension/10/images
+          sparse-checkout-cone-mode: false
 
       - name: Collect RAG images
         shell: bash
@@ -25,7 +38,8 @@ jobs:
               echo "Missing image directory: $source"
               exit 1
             fi
-            cp -R "$source" "artifact-images/${folder}"
+            mkdir -p "artifact-images/${folder}"
+            cp -R "$source"/. "artifact-images/${folder}/"
           done
 
       - name: Create image manifest
