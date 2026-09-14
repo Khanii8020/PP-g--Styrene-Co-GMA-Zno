@@ -1,243 +1,224 @@
-Zheng Tian ${ }^{\mathbf{1}, \mathbf{2}}$, Lisha Pan ${ }^{\mathbf{1}}$, and Qing Pan ${ }^{\mathbf{1}}$
+Article
+
+# Improved Insulation Properties of Polypropylenes in HVDC Cables Using Aqueous Suspension Grafting 
+
+Yiyi Zhang ${ }^{\mathbf{1} \sqrt{1}}$, Keshuo Shi ${ }^{\mathbf{1}}$, Chunyan Zang ${ }^{\mathbf{2}, *}$, Wenchang Wei ${ }^{\mathbf{1}}$, Chuanhui Xu ${ }^{\mathbf{3}}$ and Junwei Zha ${ }^{\mathbf{4}}$<br>${ }^{1}$ Guangxi Key Laboratory of Intelligent Control and Maintenance of Power Equipment, Guangxi University, Nanning 530004, China<br>${ }^{2}$ College of Electical and Electronics Engineering, Huazhong University of Science and Technology, Wuhan 430074, China<br>${ }^{3}$ School of Chemistry and Chemical Engineering, Guangxi University, Nanning 530004, China<br>${ }^{4}$ School of Chemistry and Biological Engineering, University of Science and Technology Beijing, Beijing 100083, China<br>* Correspondence: zcy_peace@hust.edu.cn
+
+Citation: Zhang, Y.; Shi, K.; Zang, C.; Wei, W.; Xu, C.; Zha, J. Improved Insulation Properties of Polypropylenes in HVDC Cables Using Aqueous Suspension Grafting. Materials 2022, 15, 6298. https:// doi.org/10.3390/ma15186298
+
+Academic Editor: Ji-Woong Kim
+Received: 20 July 2022
+Accepted: 31 August 2022
+Published: 10 September 2022
+Publisher's Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
 
 
 #### Abstract
 
-Polypropylene grafted with maleic anhydride and styrene [PP-g-(MAH-co-St)] was prepared by melt grafting. Fourier transform-infrared spectroscopy showed that maleic anhydride in the form of cyclic anhydride was successfully grafted onto the main chains of polypropylene. PP-g-(MAH-co-St) acts as a compatibilizer for the poly(propylene carbonate)/ polypropylene meltblown nonwoven fabric slices. The effect of different contents and grafting proportions of PP-g-(MAH-co-St) on the structure and performance of the poly(propylene carbonate)/polypropylene slices was investigated. The poly(propylene carbonate)/polypropylene slices had favorable compatibility, tensile properties, thermal stability, and degradability, and their melt flow rates were reduced by the addition of PP-g-(MAH-co-St). Fourier transforminfrared spectroscopy and 'H nuclear magnetic resonance spectroscopy spectra showed that ring-opening reactions occur between the anhydride functional groups of PP-g-(MAH-co-St) and poly(propylene carbonate). Ring-opening reactions, chemical bonds, cocrystallization, increased interface adhesion forces, and reduced interfacial tension may be the mechanisms by which PP-g-(MAH-co-St) acts a compatibilizer for poly(propylene carbonate)/polypropylene slices.
+Owing to its lack of crosslinking, polypropylene (PP) is considered an environmentally friendly alternative to crosslinked polyethylene as high-voltage direct current (HVDC) cable insulation. However, pure PP can accumulate space charges under a HVDC, and thus must be modified for use as an insulating material for HVDC cables. In this study, 4-methylstyrene is grafted onto PP using an aqueous suspension grafting method to improve its properties. The effects of the swelling time, reaction time, and 4-methylphenylene concentration on the reaction were investigated. The optimum process conditions were determined, including an optimum grafting ratio of 0.97\%. The volume resistivity, ability to suppress space-charge accumulation, and DC breakdown strength of modified PP were also studied. Modified PP with a grafting ratio of $0.88 \%$ showed optimal space-charge suppression and the highest volume resistivity and breakdown strength. The work will facilitate the design and development of more efficient insulation materials for HVDC cables.
 
 
-Keywords
-Polypropylene graft, poly(propylene carbonate), polypropylene, biodegradable, compatibilizer
+Keywords: aqueous suspension grafting; polypropylene; HVDC cable insulation; DC breakdown strength; space-charge suppression; 4-methylphenylene
 
-Date received: 21 August 2017; accepted: 17 April 2019
+## 1. Introduction
 
-## Introduction
+High-voltage direct current (HVDC) cables are widely used in submarine and island power transmission, among other applications. The voltage rating and operational reliability of such power cables are determined by their level of insulation. It is imperative to further develop HVDC cable insulation materials for various high-voltage applications to contribute to the development of DC transmission technologies [1].
 
-Polypropylene (PP), one of the most versatile polymers currently available, is widely used in many fields, such as in automobiles, electronics, packaging, building materials, and fibers, because of its low cost, high thermal stability, stable chemical properties, and water insolubility. ${ }^{1}$ Raw components used for nonwoven materials are composed of about 62\% PP fiber. Because PP is not biodegradable, it is not environment friendly. Furthermore, PP is a kind of nonpolar polymer, and it is low compatibility with other polar materials. The most widely used modification method for PP is grafting of polar monomers onto the main chains of PP in the presence of a radical initiator by melt grafting. Several studies have grafted PP with maleic anhydride (MAH). ${ }^{2,3}$ Chain scission can be prevented and the grafting proportion of MAH on polyolefin can be increased when styrene (St) is used as a comonomer in the
+Crosslinked polyethylene (XLPE) is widely used as an insulating material for HVDC cables, owing to its excellent electrical and mechanical properties [2,3]. However, XLPE is difficult to recycle and persists in the environment, owing to its extremely slow degradation, necessitating the development of environmentally friendly cable insulation materials. Polypropylene exhibits excellent electrical insulation and high resistance to chemical corrosion, along with a high tensile strength, ratio strength, and elastic modulus. Polypropylene can also be easily recycled, making it a potential substitute for XLPE [4-9].
 
-[^0]melt grafting process. ${ }^{4,5}$ PP grafted with MAH and St [PP- $g$-(MAH-co-St)] has been comprehensively studied, especially as a compatibilizer for PPs and other polar materials. ${ }^{6,7}$
+High-voltage electric fields cause space charges to accumulate in the insulating layers of the cables, leading to electric field distortion and, in turn, insulation breakdown. Methods to suppress the accumulation of space charges in HVDC cables have, therefore, attracted significant attention in recent years [10-16]. Among these methods, doping of pristine insulating materials with nanoparticles forms numerous deep traps that hinder the movement of charge carriers, thereby inhibiting the accumulation of space charges [17-22]. Nanoparticles are typically incompatible with polymers, owing to their high surface activity,
+which facilitates the agglomeration of nanoparticles inside the polymer, thereby generating defects; this results in the accumulation of high numbers of space charges inside the nanocomposite, which degrades the electrical properties of the composite [23]. These problems can be avoided by grafting some functional groups onto these polymers. PP can be modified with maleic anhydride groups [14], 4-propoxyenyl-2-hydroxybenzophenone [15], by the melt grafting method. The insulating properties of the modified PP are superior to those of pure PP. Grafting can regulate the macroscopic properties of the polymer through molecular-level chemical modification, while avoiding poor dispersion. Grafting functional groups onto pristine insulating materials is, therefore, considered a viable strategy to inhibit the accumulation of space charges. However, despite its short reaction time and strong grafting effect, the high reaction temperature required by the melt grafting method causes significant side reactions that degrade PP. In contrast, the aqueous suspension grafting method is simple, cost effective, environmentally friendly, and proceeds under mild reaction conditions. Furthermore, the PP degradation and graft adhesion processes observed using the melt grafting method are avoided [24-27]. The aqueous suspension grafting method has been used to synthesize PP-g-styrene (PP-g-St) graft copolymers, wherein St is grafted onto the main chain of PP macromolecules, and the grafting reaction occurs primarily in the amorphous region of PP [28].
 
-Poly(propylene carbonate) (PPC) is one of the most environment-friendly aliphatic polymers industrialized for production. ${ }^{8-10}$ It is used as a one-off packing material, one-off dishware, board material, and so on, because of its water insolubility, biodegradability, and flexibility. ${ }^{11}$ Composite materials with favorable properties can be obtained when PPC is blended with other polymers, such as poly (ethylene-co-vinyl alcohol), ${ }^{12}$ poly( $\beta$ hydroxybutyrate-co-β-hydroxyvalerate), ${ }^{13}$ natural rubber elastomer, ${ }^{14}$ and poly(lactic acid) (PLA). ${ }^{15}$
+Building on this previous work, in this study, 4-methylstyrene was grafted onto PP using the aqueous suspension grafting method. The grafting effect was characterized by infrared spectroscopy, and the optimal mass ratio of the reactants was evaluated. The volume resistivities, DC breakdown field strength, and space-charge suppression capability of the resulting modified PP-based materials were analyzed. This paper presents a novel, environmentally friendly method for the fabrication of insulation materials for HVDC cables.
 
-Recent studies have discussed the preparation of composite fiber materials with high spinnability, high strength, controllable conduction, heat conduction, antistatic, and biodegradation properties by blending PP with PLA. ${ }^{16-18}$ However, the preparation of biodegradable meltblown nonwoven materials by melt blending of PP with PPC is rarely reported.
+## 2. Materials and Methods
 
-Meltblown nonwoven materials are used widely in health and industrial applications. ${ }^{19}$ The development of biodegradable meltblown nonwoven materials is very important because many nonwoven materials are nonbiodegradable. The compatibility between PPC and PP is poor because of the different polarities of the polymers. This study prepared biodegradable PPC/PP meltblown nonwoven fabric slices by melt blending and varying the raw material rates to produce PP- $g$-(MAH-co-St) with different grafting proportions as a compatibilizer for PPC/PP slices. The effect of the contents and grafting proportions of PP- $g$-(MAH-co-St) on the compatibility, tensile, melt flow rate (MFR), thermal, and degradation properties of PPC/PP meltblown nonwoven fabric slices was also investigated.
+### 2.1. Materials and Instruments
 
-## Experimental
+Industrial-grade PP powder (T30S, Sinopec Daqing Petrochemical Co., Ltd., Beijing, China) was dried and used as isotactic PP; the particle size is $30 \mu \mathrm{~m}$ and the physicochemical parameters of T30S are as follows: the density is $0.9 \mathrm{~g} / \mathrm{cm}^{3}$, the melt flow index is $3.3 \mathrm{~g} / 10 \mathrm{~min}$, the isotactic index is 95.0-99.0, granular ash is $\leq 0.03$, the tensile yield stress $\geq 27.0$. Xylene, 4 -methylstyrene, and benzoyl peroxide were provided by Shanghai Aladdin Biochemical Technology Co., Ltd., Shanghai, China, and acetone was acquired from Tianjin Fuyu Fine Chemical Co., Ltd., Tianjin, China.
 
-## Materials
+A flat vulcanizer (Guangdong Lina Industrial Co., Ltd., Dongguan, China) was used, along with a digital display intelligent temperature control magnetic stirrer (GongyiYuhua Instrument Co., Ltd., Gongyi, China). Infrared spectroscopy was performed using a Nicolet™ iS50 FTIR spectrometer (Thermo Fisher, Waltham, MA, USA). The reaction temperatures were measured using a synchronous thermal analyzer (DSC; NETZSCH Instruments GmbH, Germany). The resistivities and impedances of the prepared samples were measured using a Keithley 6517B electrostatic tester and a Concept 80 broadband dielectric tester (Novocontrol GmbH, Montabaur, Germany), respectively. The dielectric breakdown strength of the samples was measured using a breakdown tester (Beijing Huace Testing Instrument Co., Ltd., Beijing, China). Finally, the space-charge distribution in the samples was analyzed using a space-charge distribution tester.
 
-Two kinds of PP were used in this study. Granular PP $\left(\mathrm{MFR}=4 \mathrm{~g} / 10 \mathrm{~min}, 230^{\circ} \mathrm{C} / 2160 \mathrm{~g}\right)$ used for the preparation of PP- $g$-(MAH-co-St) was provided by Sinopec Yangzi Petrochemical Company Ltd (Nanjing, Jiangsu, China). PP with lower viscosity $(\mathrm{MFR}=1243 \mathrm{~g} / 10$ $\mathrm{min}, 230^{\circ} \mathrm{C} / 2160 \mathrm{~g}$ ) used for the preparation of PPC/PP slices was provided by Hainan Xinlong Nonwoven Company Ltd., China. PPC $\left(M_{\mathrm{w}}=1.31 \times 10^{5}\right)$ was provided by Inner Mongolia Mengxi High-New Material Company Ltd., China. MAH was purchased from Shanghai Crystal Pure Company Ltd., China. St, dicumyl peroxide (DCP), dimethyl benzene, acetone, sodium hydroxide, alcohol, acetic acid, and phenolphthalein were purchased from Tianjin Fuchen Chemical Reagents Factory, China.
+### 2.2. Materials Preparation
 
-## Preparation of compatibilizers
+The PP powder, 4-methylstyrene, xylene, and distilled water were added to a threenecked flask with a condenser. This reaction mixture was heated to 50 °C in a water bath, stirred, and left to swell. After the swelling had progressed for a specified time, the flask was removed from the bath. The flask was again heated at 90 °C, before benzoyl peroxide was added and continuously stirred for the reaction. The process was stopped after the reaction progressed for a specified time. The product was subsequently washed with hot
+distilled water and ethanol, filtered to remove other impurities, and extracted with acetone for 12 h . The extracted product was then dried in a vacuum drying oven at 60 °C for 24 h, and the final drying was performed using a flat vulcanizer. The product was pressed into a $500 \mu \mathrm{~m}$ film at 200 °C and 10 MPa. The grafting reaction steps and mechanisms are shown in Figures 1 and 2. As shown in picture 2, under the action of the initiator benzoyl peroxide, the double bond on the graft group 4-methylstyrene is opened, and undergoes a radical polymerization reaction with polypropylene to form a rafted product.
 
-Preparation of compatibilizers was carried out in an XS-60 blending machine (Shanghai Kechuang Rubber and Plastic Mechanical Equipment Company Ltd., China) with a blending rate of 40 r/min at 180°C for 3 min. Granular PP was mixed with MAH as a polar monomer, St as a comonomer, and DCP as an initiator in a sealed plastic bag. The mixture was then placed into the blending machine for immediate compounding. The code PP- $g$-(MAH-co-St) (100/6/6/0.4) represents the compatibilizer prepared from a mixture of 100.0 g of PP, 6.0 g of MAH, 6.0 g of St, and 0.4 g of DCP.
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-03_388_1343_685_583.jpg)
+Figure 1. Grafting reaction steps.
 
-After melt grafting, PP- $g$-(MAH-co-St) was dissolved in dimethyl benzene by heat refluxing and precipitated in acetone to remove the unreacted MAH and St and polystyrene and poly(styrene-co-maleic anhydride) (SMA) that had formed during melt grafting. PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ precipitates were then filtered and dried at 50°C in a vacuum oven for 6 h.
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-03_948_1302_1186_603.jpg)
+Figure 2. Grafting reaction mechanism.
 
-## Preparation of PPC/PP slices
+### 2.3. Material Property Testing
 
-Prior to blending, PPC, PP, and PP- $g$-(MAH-co-St) were dried in a vacuum oven at 50°C for more than 12 h until constant weights were achieved. PPC and PP at a ratio of 80/20 (w/w) and predetermined amounts of PP- $g$-(MAHco-St) were mixed well using an XS-60 blending machine (mixer: LH60, shape of the rotor: roller, chamber capacity: 60 mL , highest heating temperature: 350°C, maximum working torque: 80 N m, and pressure of pressing block to material: $6.44 \times 10^{4} \mathrm{~Pa}$ ) with a blending rate of 35 r/min at $175^{\circ} \mathrm{C}$ for 5 min . The blends were then shaped by an LSJ20 extruder (Shanghai Kechuang Rubber and Plastic Mechanical Equipment Company Ltd., screw diameter: 20 mm, screw ratio(L/D): 25, highest heating temperature: 350°C, and maximum working torque: 120 N m) with a blending rate of 25 r/min at 100, 170, 175, and $150^{\circ} \mathrm{C}$ for zones 1, 2, 3, and 4, respectively, and a three-roller compressor machine (Shanghai Kechuang Rubber and Plastic Mechanical Equipment Company Ltd.) with a shear rate of 60 r/min. The code PPC/PP- $g$-(MAH-co-St) $\left(G_{\text {MAH }}=\right.$ 1.51\%)/PP (80/2/20) represents a PP- $g$-(MAH-co-St) grafting proportion of $1.51 \%, \mathrm{PP}-g-(\mathrm{MAH}-c o-\mathrm{St})$ content of 2\% of the sum of the weights of PPC and PP, and PPC and PP weight ratio of 80/20 (w/w).
+The Fourier transform infrared spectra of pure PP, modified PP, and 4-methylstyrene were recorded in 32 scans at $3000-500 \mathrm{~cm}^{-1}$, using an infrared spectrometer with a resolution of $2 \mathrm{~cm}^{-1}$.
 
-## Analysis of the properties of PPC/PP slices
-
-Grafting proportion measurement. The grafting proportion of MAH was determined by the back titration method. Briefly, 0.5 g of pure PP-g-(MAH-co-St) was dissolved in dimethyl benzene by heat refluxing at 120°C for 1 h. After the compound had dissolved completely, 20 mL of 0.05 mol/L sodium hydroxide/alcohol standard solution was added to the mixture by heat refluxing at 100°C for
-
-15 min. Two drops of phenolphthalein were subsequently added to the solution, and $0.05 \mathrm{~mol} / \mathrm{L}$ acetic acid/dimethyl benzene standard solution was used to titrate the mixture until it was colorless. The grafting proportion was calculated by equation (1)
-
-$$
-\begin{equation*}
-G_{\mathrm{MAH}}=\frac{98.06 \times\left(c_{1} \times V_{1}-c_{2} \times V_{2}\right)}{1000 \times 2 m} \times 100 \% \tag{1}
-\end{equation*}
-$$
-
-where $G_{\text {MAH }}$ is the grafting proportion of MAH (\%), $c_{1}$ is the concentration of sodium hydroxide/alcohol standard solution $(\mathrm{mol} / \mathrm{L}), c_{2}$ is the concentration of acetic acid/ xylene standard solution $(\mathrm{mol} / \mathrm{L}), V_{1}$ is the volume of sodium hydroxide/alcohol standard solution (mL) consumed, $V_{2}$ is the volume of acetic acid/dimethyl benzene standard solution (mL) consumed, and $m$ is the weight of pure PP- $g-(\mathrm{MAH}-\mathrm{co}-\mathrm{St})(\mathrm{g})$. The molecular mass of MAH is 98.06.
-
-Fourier transform-infrared spectroscopy. The Fourier transform-infrared spectroscopy (FT-IR) spectra of samples were recorded using KBr pellets with a TENSOR27 FT-IR spectrometer (Bruker, Germany).
-
-Scanning electron microscopy. The internal microstructures of the samples were observed using an S-3500N-type scanning electron microscope (Hitachi, Tokyo, Japan). The samples were prepared by freezing PPC/PP slices in liquid nitrogen followed by application of a high-speed impact to create freshly fractured surfaces. The fractured surfaces were covered with gold before observation.
-
-Tensile properties. The tensile properties of rectangularshaped slice samples (1 cm × 10 cm) were evaluated using an XLW-Intelligent electronic tensile testing machine (Jinan Labthink Mechanical and Electrical Company Ltd., China) at a tensile speed of 500 mm/min and an environment temperature of 30°C.
-
-MFR. MFR tests were carried out using an RL218-MFR instrument (Shanghai Sierda Scientific Instrument Company Ltd., China) at $230^{\circ} \mathrm{C}$ and 2160 g load (ASTM D1238-2004) according to the Standard Test Method for Melt Flow Rates of Thermoplastics by an extrusion plastometer.
-
-Thermal properties. The melting temperature ( $T_{\mathrm{m}}$ ) and glass transition temperature ( $T_{\mathrm{g}}$ ) were determined by differential scanning calorimetry (DSC) using a NETZSCH DSC Q100 (T.A. Instruments Inc., Los Angeles, USA). The thermal degradation temperatures ( $T_{-5 \%}, T_{-50 \%}, T_{-95 \%}$, and $T_{\mathrm{p}}$ ) were determined by thermogravimetric analysis (TG) using a NETZSCH TG Q600 (T.A. Instruments Inc.). DSC analysis was performed by scanning each sample from $-50^{\circ} \mathrm{C}$ to $200^{\circ} \mathrm{C}$ at a heating rate of $10^{\circ} \mathrm{C} / \mathrm{min}$. TG analysis was performed by scanning each sample from 30°C to 500°C at a heating rate of 10°C/min. The crystallinity of PPC/PP slices is calculated by equation (2)
+The grafting ratio of the grafted material was determined from the ratio of the height of the absorption peak of the $\mathrm{C}=\mathrm{C}$ bond of the benzene ring to that of the $\mathrm{C}-\mathrm{CH}_{3}$ absorption peak of PP in the absorbance image, which was obtained from the infrared spectral transmittance map. The relative grafting ratio is calculated by Equation (1).
 
 $$
 \begin{equation*}
-X_{\mathrm{c}}=\frac{\Delta H_{\mathrm{m}}}{\Delta H_{0}} \times 100 \% \tag{2}
+R a \%=I_{1504} / I_{1375} \times 100 \tag{1}
 \end{equation*}
 $$
 
-where $X_{\mathrm{c}}$ is the crystallinity of PPC/PP slices (\%), $\Delta H_{\mathrm{m}}$ is the crystal melting enthalpy of the PPC/PP slices (J/g), and $\Delta H_{0}$ is the complete crystallization or melting enthalpy of the PPC/PP slices (J/g). $\Delta H_{0}$ is calculated from the ratio of PPC and PP, the standard melting enthalpy of PPC is 0 J/g, and the standard melting enthalpy of PP is 209 J/g.
+where $R a$ is the relative grafting ratio, $I_{1504}$ is the height of the absorption peak of the C=C bond of the benzene ring, and $I_{1375}$ is the height of the $\mathrm{C}-\mathrm{CH}_{3}$ absorption peak.
 
-Degradation test. PPC/PP slices (1 cm × 1 cm) of 0.4 mm thickness were dried in a vacuum oven at 50°C for more than 12 h until a constant weight was achieved and degraded in phosphate buffer solution (PBS; $\mathrm{pH}=7.7$ ) at 60°C. The PBS was replaced every 6 days to ensure the stability of the pH. The weightlessness rate represents the degradation rate and is calculated by equation (3)
+A differential scanning calorimeter was used to measure the thermal parameters of the material. Under nitrogen gas flowing at a ratio of $20 \mathrm{~mL} \cdot \mathrm{~min}^{-1}$, a sample of the material (5 mg) was then heated from 40 °C to 200 °C at a ratio of 10 °C. $\mathrm{min}^{-1}$, held at 200 °C for 3 min to eliminate the thermal history, and then cooled to 40 °C at a ratio of 10 °C.min ${ }^{-1}$. The heat absorbed was measured to extract the crystallization profile. Next, the temperature was again raised to 200 °C at a ratio of 10 °C. $\mathrm{min}^{-1}$ for 3 min, and the heat absorbed by the sample was measured to determine the melting profile. Each sample was tested in triplicate to ensure the high accuracy of the experimental results.
+
+The space-charge profiles of the samples were determined using pulsed electroacoustic infrared spectroscopy, with a pulse voltage and width of 400 V and 5 ns, respectively. The test material was pressurized for 10, 300, 900, and 1800 s to analyze the space-charge distribution. The test sample specifications are $100 \times 100 \times 0.5 \mathrm{~mm}$.
+
+The DC voltage breakdown strength was determined using a voltage breakdown tester in accordance with the GB1408.1-2006 standard, using two-column test electrodes with diameters of 25 mm and a boosting ratio of $1 \mathrm{kV} \mathrm{s}^{-1}$. The test sample specifications were $100 \times 100 \times 0.1 \mathrm{~mm}$. The breakdown field strength $E_{\mathrm{B}}$ was calculated using Equation (2).
 
 $$
 \begin{equation*}
-W_{\mathrm{r}}=\frac{m_{0}-m_{1}}{m_{0}} \times 100 \% \tag{3}
+E_{\mathrm{B}}=U_{\mathrm{B}} / d \tag{2}
 \end{equation*}
 $$
 
-where $W_{\mathrm{r}}$ is the weightlessness rate (\%), $m_{0}$ is the initial weight of the PPC/PP slices (g), and $m_{1}$ is the weight of the PPC/PP slices after degradation (g).
-${ }^{1} H$ nuclear magnetic resonance spectroscopy. The ${ }^{1} \mathrm{H}$ nuclear magnetic resonance spectroscopy ( ${ }^{1} \mathrm{H} \mathrm{NMR}$ ) spectra of samples dissolved in deuterated chloroform were recorded using an AV400 NMR spectrometer (Bruker, Switzerland).
+where $E_{\mathrm{B}}$ is the breakdown field strength (kV/mm), $U_{\mathrm{B}}$ is the breakdown voltage (kV), and $d$ is the thickness of the breakdown point (mm).
 
-## Results and discussion
+The dielectric properties of the samples were measured in the frequency range of $10^{-1}$ to $10^{7} \mathrm{~Hz}$, using a Concept 80 broadband electrostatic meter at room temperature.
 
-## Characterization of PP-g-(MAH-co-St)
+The volume resistivity was measured using the three-electrode method in accordance with the GB/T-1410-2006 standard, using a Keithley 6517B electrometer with an applied voltage of 500 V and a pressing time of 5 min. Each sample was measured in triplicate, and its specifications were $100 \times 100 \times 0.1 \mathrm{~mm}$.
 
-PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ with three grafting proportions $\left(G_{\mathrm{MAH}}\right)$ were prepared by varying experimental conditions such as the raw material ratio, processing temperature, and processing time. The $G_{\text {MAH }}$ of PP-g-(MAH-co-St) prepared with different raw material ratios is shown in Table 1. As shown in Table 1, when the ratio of PP/MAH/St/DCP is 100/6/6/0.2, the $G_{\text {MAH }}$ of PP- $g$-(MAH-co-St) is $0.89 \%$. The $G_{\text {MAH }}$ of PP- $g$-(MAH-co-St) (100/6/6/0.4) was higher than that of PP- $g$-(MAH-co-St) (100/6/0/0.4), which implies that the grafting reaction is promoted by St. The $G_{\text {MAH }}$ of PP- $g$-(MAH-co-St) (100/6/6/0.2) was lower than that of PP- $g$-(MAH-co-St) (100/6/6/0.4) because not enough free radicals are available for reaction when the
+Trap levels of PP and the grafted materials (grafting ratio: $0.88 \%$ ) were measured using the thermal shock depolarization current method. Gold electrodes were sputtered on both sides of the sample prior to taking the measurement, after which the sample was polarized under a DC electric field of $4 \mathrm{kV} \cdot \mathrm{mm}^{-1}$ at 50 °C for 30 min and then rapidly cooled to $-90^{\circ} \mathrm{C}$, where it was maintained for 3 min . The polarization voltage was subsequently removed, and the sample was heated from $-90^{\circ} \mathrm{C}$ to $100^{\circ} \mathrm{C}$ at a heating ratio of 3 °C $\mathrm{min}^{-1}$ to determine the trapped space-charge distribution via the sample current measurements.
 
-Table I. $\mathrm{G}_{\text {MAH }}$ of PP-g-(MAH-co-St) prepared with different raw material ratios.
-| Raw material ratios (PP/MAH/St/DCP) | $G_{\text {MAH }}$ of PP-g-(MAH-co-St) (\%) |
-| :--- | :--- |
-| 100/6/6/0.2 | 0.89 |
-| 100/6/0/0.4 | 0.94 |
-| 100/6/6/0.4 | 1.51 |
+## 3. Results and Discussion
 
+### 3.1. Infrared Spectroscopy
 
-PP: polypropylene; MAH: maleic anhydride; St: styrene; DCP: dicumyl peroxide.
+Figure 3 shows the infrared spectra of pure PP, modified PP, and 4-methylstyrene. The PP-grafted material exhibits a vibration absorption peak at $1504 \mathrm{~cm}^{-1}$, which is characteristic of the benzene ring in 4-methylstyrene; however, no vinyl C=C stretching vibration was observed at the characteristic absorption frequency of $1633 \mathrm{~cm}^{-1}$. Moreover, no new peaks corresponding to impurities were observed, confirming that the 4-methylstyrene monomer was successfully grafted onto PP.
 
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-4_495_760_728_198.jpg)
-Figure I. FT-IR spectra of PP-g-(MAH-co-St) $\left(G_{\text {MAH }}=0.89 \%\right)$ and PP.
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-05_710_877_343_599.jpg)
+Figure 3. Infrared spectra of the polymer materials.
 
-initiator content is low. These results indicate that different raw material ratios could yield different results.
+### 3.2. DSC Analysis
 
-The grafting reaction of PP with MAH and St was confirmed by the FT-IR spectra. The FT-IR spectra of pure PP- $g-(M A H-c o-S t)\left(G_{\text {MAH }}=0.89 \%\right)$ and PP are shown in Figure 1. As a cyclic anhydride, MAH showed an asymmetrical stretching vibration peak of carbonyl at about $1800 \mathrm{~cm}^{-1}$ and a symmetrical stretching vibration peak at about $1750 \mathrm{~cm}^{-1} .{ }^{20}$ Characteristic peaks of MAH were clearly observed at 1782 and $1856 \mathrm{~cm}^{-1}$. The characteristic peak of St was clearly observed at $703 \mathrm{~cm}^{-1}$. These results indicate that MAH and St were successfully grafted onto the main chains of PP.
+Figure 4 shows the melting and crystallization curves of PP and modified PP with different grafting ratios. Figure 4 shows that the melting temperature of the material tends to decrease with the increasing grafting ratio; however, Figure 4 shows the crystallization temperature of the material increases with the increasing grafting ratio. As the grafting ratio increases, the structure becomes increasingly incomplete and the level of crystal imperfection becomes increasingly greater. Thus, the melting temperature tends to decrease. The increase in grafting ratio reduces the free volume inside the material, thereby increasing the steric hindrance, and the molecular motion requires more thermal energy. Thus, the crystallization temperature tends to increase. Table 1 shows that the crystallinity of the grafted product decreased from 53.2\% to 39.5\% as the grafting ratio increased.
 
-## Scanning electron microscopy analysis
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-05_879_998_1684_589.jpg)
+Figure 4. Melting and crystallization diagram.
 
-Compatibility between PP meltblown nonwoven fabric slices and PPC is difficult to achieve without incorporation of a proper compatibilizer because the former is a nonpolar polymer, whereas the latter is a relatively polar polymer. The effect of PP- $g$-(MAH-co-St) on PPC/PP slices was investigated by scanning electron microscopy (SEM). SEM micrographs of PPC/PP slices are shown in Figure 2. Slices to which PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ had been added were smoother and showed fewer depressions and cavities than PPC/PP (80/20) slices without PP-g-(MAH-co-St). PP in the form of ball dispersed more uniformly in the PPC matrix when the content and grafting proportion of PP- $g$ (MAH-co-St) were increased. This result clearly demonstrates that the compatibility between polymers can be improved by the addition of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$.
-
-## Tensile properties and MFR of PPC/PP slices
-
-The tensile properties of PPC/PP slices are shown in Figure 3. The tensile strength reached 16.64 MPa when the content of PP- $g$-(MAH-co-St) $\left(G_{\text {MAH }}=1.51 \%\right)$ was 8\%, and then decreased with further increases in PP- $g$-(MAHco-St). Also, the tensile strength of PPC/PP slices was higher at higher grafting proportions of PP- $g$-(MAHco-St) than lower ones. The effect of the grafting proportion of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ on the tensile strength of PPC/ PP slices was not obvious when the PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ content was low. With the increase in the content and grafting rate of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$, the elongation at break of PPC/PP slices was decreased, because the MAH grafted on the chain of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ promoted the reaction of PPC with PP- $g$-(MAH-co-St), improved the interfacial adhesion strength of PPC with PP, and hence the elongation at break of PPC/PP slices was decreased. Furthermore, PP- $g$-(MAH-co-St) had a main chain of PP, its crystallization was similar to the rigid material PP, and the addition of PP- $g$-(MAH-co-St) promoted the crystallinity of PPC/ PP. Hence, the flexibility was reduced, and the elongation at break of PPC/PP slices was reduced by adding PP-g-(MAH-co-St).
-
-MFRs of the PPC/PP slices with PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ are shown in Figure 4. The MFR of the PPC/PP slices decreased when the content and grafting proportion of PP-g-(MAH-co-St) were increased. The minimum MFR was observed at a PP- $g$-(MAH-co-St) $G_{\text {MAH }}$ of 1.51\%. Changes in the MFR of the PPC/PP slices were not obvious when the PP- $g$-(MAH- $c o$-St) content was higher than 8\%. These results indicate that addition of PP- $g$-(MAHco-St) could promote the compatibility, improve the interfacial adhesion strength, and inhibit the flowability between PPC and PP, consistent with the SEM and tensile strength analyses.
-
-## Thermal properties
-
-The DSC curves of PPC/PP- $g-(\mathrm{MAH}-c o-\mathrm{St}) / \mathrm{PP}$ slices are shown in Figure 5, and data of $T_{\mathrm{m}}$ and $T_{\mathrm{g}}$ are shown in Table 2. The $T_{\mathrm{m}}$ of the PPC/PP slices did not change after the addition of PP- $g$-(MAH-co-St). The $T_{\mathrm{g}}$ of the PPC/PP slices after the addition of PP- $g$-(MAH-co-St) is between $24.2^{\circ} \mathrm{C}$ and $28.0^{\circ} \mathrm{C}$. The $T_{\mathrm{g}}$ of the PPC/PP slices decreased when the content and grafting proportion of PP- $g$-(MAH$c o-\mathrm{St}$ ) were increased and tended to $T_{\mathrm{g}}$ between PPC and PP. ${ }^{21}$ The crystallinity of PPC/PP slices is improved with the increase in the grafting proportion and content of PP- $g$-(MAH-co-St). These findings confirm that the
-
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-5_1664_1428_240_342.jpg)
-Figure 2. SEM micrographs of PPC/PP slices: (a) PPC/PP (80/20) at $1000 \times$ magnification, (b) PPC/PP (80/20) at 2000× magnification, (c) PPC/PP-g-(MAH-co-St) $\left(G_{\text {MAH }}=0.94 \%\right) /$ PP $(80 / 2 / 20)$ at $1000 \times$ magnification, $(d)$ PPC/PP-g-(MAH-co-St) $\left(G_{\text {MAH }}=\right.$ 0.94\%)/PP (80/2/20) at 2000× magnification, (e) PPC/PP-g-(MAH-co-St) $\left(G_{\text {MAH }}=1.51 \%\right) / \mathrm{PP}(80 / 8 / 20)$ at 1000× magnification, and (f) PPC/PP-g-(MAH-co-St) $\left(G_{\text {MAH }}=1.51 \%\right) / P P(80 / 8 / 20)$ at 2000× magnification.
-
-compatibility of PPC/PP slices is improved by the addition of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$.
-
-The TG and derivative thermogravimetry (DTG) curves of PPC, PP, and the PPC/PP slices are shown in Figure 6, and data of $T_{-5 \%}, T_{-50 \%}, T_{-95 \%}$, and $T_{\mathrm{p}}$ are shown in Table 2. The $T_{-5 \%}$ of PPC was $55.5^{\circ} \mathrm{C}$ lower than that of the PPC/PP slices when PPC was blended with PP at a ratio of 80/20 (w/w). The thermal decomposition temperatures of the PPC/ PP slices increased with increasing PP-g-(MAH-co-St) content. The $T_{-5 \%}$ of the PPC/PP slices was mostly improved by 25°C by the addition of 8\% PP- $g$-(MAH- $c o-\mathrm{St}$ ) ( $G_{\text {MAH }}=$ 1.51\%). The thermal decomposition temperatures of the PPC/PP slices did not obviously change when the grafting proportion of PP- $g$-(MAH-co-St) was increased. PPC was easily decomposed to cyclic carbonate at low temperature, because the thermal degradation was inhibited by the reaction of PPC and the PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$. Therefore, thermal decomposition temperatures and the thermal stability of the
-
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-6_538_680_241_235.jpg)
-Figure 3. Tensile properties of PPC/PP slices with PP-g-(MAH-co-St).
-
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-6_571_713_962_220.jpg)
-Figure 4. MFRs of PPC/PP slices with PP-g-(MAH-co-St).
-
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-6_398_713_1682_220.jpg)
-Figure 5. DSC curves of PP and PPC/PP slices.
-
-PPC/PP slices can be improved and the processing temperature range can be expanded by the addition of PP- $g$-(MAH-co-St).
-
-## Degradation properties
-
-The degradation rates of PPC, PP, and the PPC/PP slices in PBS are shown in Table 3. After 30 days, about 4.30\% of
-
-Table 2. Thermal properties of PP and PPC/PP slices.
-| Materials | $T_{g}\left({ }^{\circ} \mathrm{C}\right)$ | $T_{m}\left({ }^{\circ} \mathrm{C}\right)$ | $T_{-5 \%}\left({ }^{\circ} \mathrm{C}\right)$ | $T_{-50 \%}\left({ }^{\circ} \mathrm{C}\right)$ | $T_{-95 \%}\left({ }^{\circ} \mathrm{C}\right)$ | $T_{p}\left({ }^{\circ} \mathrm{C}\right)$ | $\Delta H_{m}(\mathrm{~J} / \mathrm{g})$ | $X_{c}$ (\%) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| $\begin{aligned} & \text { PPC/PP-g-(MAH-co-St) } \\ & \left(G_{\text {MAH }}=0.94 \%\right) / \mathrm{PP}(80 / 2 / 20) \end{aligned}$ | 27.8 | 161.2 | 222.0 | 257.5 | 376.5 | 251.5 | 19.64 | 47.0 |
-| $\begin{aligned} & \text { PPC/PP-g- }(\text { MAH-co-St }) \\ & \left(G_{\text {MAH }}=1.51 \%\right) / \text { PP }(80 / 2 / 20) \end{aligned}$ | 25.7 | 161.6 | 222.5 | 257.5 | 375.5 | 250.0 | 21.14 | 50.6 |
-| $\begin{aligned} & \text { PPC/PP-g- }(\text { MAH-co-St }) \\ & \left(G_{\text {MAH }}=1.51 \%\right) / \text { PP }(80 / 8 / 20) \end{aligned}$ | 24.2 | 160.0 | 244.5 | 281.0 | 407.7 | 270.0 | 21.29 | 50.9 |
-| PP | - | 162.6 | 263.5 | 334.5 | 370.0 | 355.0 | 94.04 | 45.0 |
+Table 1. Thermogravimetric properties of the grafted materials.
+| Grafting Ratio (\%) | Crystallization Temperature (°C) | Melting Temperature (°C) | Crystallinity (\%) |
+| :--- | :--- | :--- | :--- |
+| 0 | 114.5 | 168.1 | 53.2 |
+| 0.41 | 117.6 | 166.0 | 47.3 |
+| 0.65 | 120.6 | 165.1 | 46.8 |
+| 0.88 | 122.2 | 163.7 | 42.1 |
+| 0.97 | 123.5 | 157.1 | 39.5 |
 
 
-PPC: poly(propylene carbonate); PP: polypropylene; MAH: maleic anhydride; St: styrene.
+### 3.3. Process Condition Analysis
 
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-7_467_1516_243_297.jpg)
-Figure 6. (a) TG and (b) DTG curves of PPC, PP, and the PPC/PP slices.
+In the experiment where the control PP (10 g) was used with the dispersant (60 mL), Figure 5a shows the increase in grafting ratio with swelling time. Increasing the swelling time causes further wetting of xylene, which further wets and swells the amorphous region of PP, such that 4-methylstyrene is more likely to diffuse into the interior of the PP to promote the addition reaction, thereby increasing the grafting ratio. However, the area that can be wetted and swelled by xylene is limited; thus, after the optimal swelling time of 120 min, the grafting ratio levels off. Figure 5b shows that the grafting ratio increases with an increase in the reaction time. As the reaction time increased, the number of free radicals generated by the decomposition of benzoyl peroxide gradually increased. The grafting ratio initially increased gradually before saturating after 150 min, indicating that the optimal reaction time was 150 min. The diffusion of monomers and initiators into the interior of the PP is facilitated by xylene, which can wet and swell the amorphous region of PP. Accordingly, Figure 5c shows that the grafting ratio increases with the amount of xylene. However, the grafting ratio begins to decrease when the amount of xylene exceeds 2.2 mL because excess xylene dissolves some monomers and wraps PP. Thus, an excess of xylene inhibits the grafting reaction and reduces the grafting ratio. Based on our observations, the optimal amount of xylene is 2.2 mL . Figure 5d shows that the grafting ratio initially increases and then decreases with an increase in the initiator dosage because increasing the amount of initiator increases the number of decomposed free radicals, thereby increasing the grafting ratio. However, an excessive amount of the initiator causes the 4-methylstyrene to undergo a homopolymerization reaction that consumes a large amount of the monomer, and thus reduces the grafting ratio. Our observations reveal that the optimum amount of initiator benzoyl peroxide is 0.12 g. Furthermore, Figure 5e shows that the grafting ratio increases with an increase in the monomer dosage, and then remains essentially constant. Increasing the concentration of the monomer increases the probability that it will be grafted onto the main PP chain; however, this chain only has a limited number of graftable sites; thus, continuously increasing the monomer concentration beyond a certain threshold has no effect on the grafting ratio. Our results indicate that 1.3 mL is the optimal amount of monomer in this case.
 
-Table 3. Degradation rate of PPC, PP, and the PPC/PP slices.
-| Materials | Degradation rate after 6 days (\%) | Degradation rate after 12 days (\%) | Degradation rate after 18 days (\%) | Degradation rate after 24 days (\%) | Degradation rate after 30 days (\%) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| PPC | 3.24 | 3.68 | 3.96 | 4.11 | 4.30 |
-| PPC/PP (80/20) | 2.89 | 3.25 | 3.43 | 3.62 | 3.82 |
-| $\begin{aligned} & \text { PPC/PP-g-(MAH-co-St) } \\ & \left(G_{\text {MAH }}=0.94 \%\right) / \mathrm{PP}(80 / 2 / 20) \end{aligned}$ | 2.89 | 3.26 | 3.44 | 3.65 | 3.84 |
-| $\begin{aligned} & \text { PPC/PP-g-(MAH-co-St) } \\ & \left(G_{\mathrm{MAH}}=1.51 \%\right) / \mathrm{PP}(80 / 2 / 20) \end{aligned}$ | 2.91 | 3.30 | 3.49 | 3.70 | 3.91 |
-| $\begin{aligned} & \text { PPC/PP-g-(MAH-co-St) } \\ & \left(G_{\mathrm{MAH}}=1.51 \%\right) / \mathrm{PP}(80 / 8 / 20) \end{aligned}$ | 2.71 | 3.02 | 3.21 | 3.55 | 3.71 |
-| PP | 0 | 0 | 0 | 0 | 0 |
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-06_432_1282_2083_569.jpg)
+Figure 5. Cont.
+
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-07_866_1288_331_580.jpg)
+Figure 5. Effects of (a) swelling time, (b) reaction time, (c) amount of xylene, (d) amount of initiator, and (e) amount of monomer on the grafting ratio.
+
+In summary, to synthesize a modified PP material with an optimal graft modification at a maximum grafting ratio of 0.97\%, PP (10 g), dispersant (60 mL), xylene (2.2 mL), benzoyl peroxide (0.12 g), and 4-methylstyrene (1.3 mL) are required, with a swelling and reaction time of 120 and 150 min, respectively.
+
+### 3.4. Effect of Grafting Ratio on Volume Resistivity of the Grafted Materials
+
+Volume resistivity is an important indicator of the insulation performance of modified PP materials. Accordingly, the volume resistivity of the prepared materials was analyzed to assess their applicability as insulating materials in HVDC cables. Figure 6 shows that the volume resistivity first increases and then decreases with the grafting ratio. A maximum volume resistivity 4.4 times that of pure PP $\left(5.73 \times 10^{15} \Omega \cdot \mathrm{~m}\right)$ was obtained at a grafting ratio of 0.88\%. Continuous grafting of monomers onto PP reduces its crystallinity, but increases the amorphous fraction. However, the carriers in the amorphous area are slower than those in the crystalline area. 4-methylstyrene contains large conjugated $\pi$ bonds, which increase the number of deep traps; this, in turn, hinders carrier transport in PP. Thus, the volume resistivity increased with the increasing grafting ratio; however, with a grafting ratio in excess of 0.88\%, the middle of the deep traps was connected, owing to the excessive number of deep traps.
+
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-07_498_672_2168_578.jpg)
+Figure 6. Effect of material grafting ratio on volume resistivity.
+
+Moreover, owing to the excessive number of conjugated molecules, self-aggregation or side reactions occurred, thereby increasing the number of impurities. Thus, the carriers were influenced by the reduced barrier, resulting in a reduction in the volume resistivity.
+3.5. Influence of Grafting Ratio on the Dielectric Permittivity and Dielectric Loss of Grafted Materials
+
+HVDC cable insulation materials require a low dielectric permittivity and low dielectric loss. Figure 7a shows that the dielectric permittivity of pure PP is approximately 2.25, while that of the grafted material increases with the increasing grafting ratio. Moreover, the number of conjugated molecules in the system increases, thereby increasing the polarity of the system and, consequently, the dielectric permittivity increases. Meanwhile, the dielectric permittivity decreases with increasing frequency because the motion of polar groups is affected by the change in electric field frequency in the high-frequency range. Figure 7b shows that the dielectric loss increases with the increasing grafting ratio, which may be due to the increase in the number of conjugated molecules and because the chain segments of the macromolecules cannot withstand the frequency of motion, resulting in the generation of macromolecules. The dielectric loss during relaxation polarization started increasing slightly at frequencies above $10^{5} \mathrm{~Hz}$, possibly owing to the energy loss resulting from the increased relaxation time.
+
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-08_576_1332_1188_580.jpg)
+Figure 7. (a) Dielectric permittivity and (b) dielectric loss of the materials with different grafting ratios.
+
+### 3.6. Effect of Grafting Ratio on Space Charge of Grafted Materials
+
+Space charges accumulate in the grafted materials under the action of a strong electric field, resulting in a local electric field inside the material, which, in turn, leads to a break down. The current goal of research in HVDC cable insulation materials testing is to prevent the accumulation of space charges.
+
+Under the pressurized polarization of pure PP, Figure 8a shows that the number of carriers injected into the cathode and anode increases with increasing pressurization time, which inhibits the growth and accumulation of space-charge packets and the space-charge density inside the material between 0 and $12.5 \mathrm{C} \cdot \mathrm{m}^{-3}$. Therefore, a space-charge packet is formed inside the material under the action of a high electric field, resulting in a local effective electric field, rendering the material more prone to break down.
+
+Figure 8b shows that grafting the 4-methylstyrene to the PP can reduce the spacecharge injection at the cathode and anode. Although space-charge packets are still formed inside the material, fewer internal space-charge packets are formed than in pure PP. This indicates that the space-charge injection has been partially suppressed.
+
+Figure 8c-e show the internal space-charge density of the modified PP with a grafting ratio of $0.65 \%$, which fluctuates between 0 and $1.25 \mathrm{C} \cdot \mathrm{m}^{-3}$ and the grafting ratio of $0.88 \%$ is related to the grafting ratio. The internal space-charge density of the modified PP with a grafting ratio of 0.97\% is approximately 0 C•m ${ }^{-3}$, indicating that almost no space-charge
+packet is formed; however, some space charge is still observed. Therefore, modified PP with a grafting ratio of 0.88\% exhibits the optimal suppression of the space charges.
+
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-09_1752_1314_448_585.jpg)
+Figure 8. Material space charge maps: (a) pure PP, and grafting ratio of (b) 0.41\%, (c) 0.65\%, (d) 0.88\% and (e) 0.97\%; (f) material trap energy level distribution.
+
+This observation can be explained by the introduction of the 4-methylstyrene, which reduced the crystallinity of PP and the regularity of the spherulites, blurred the boundaries, produced numerous uniformly distributed traps in both the crystalline and amorphous regions, and enhanced the charge capture ability of the deep traps, thus preventing the accumulation of space charges. Both the influence of functional groups on the crystalline and amorphous regions and the space-charge suppression ability increased with the increasing grafting ratio. However, at a grafting ratio above 0.88\%, the space-charge suppression ability decreased, owing to the introduction of numerous deep traps, which not only generated channels between deep traps that facilitated the migration of opposite polar charges, but
+also constituted the conductivity activation energy. The ability to suppress the injection of the same polarity charge will, thus, be reduced. In summary, the ability of the material to suppress space charges first increases and then decreases with the increasing grafting ratio. Optimal space-charge suppression was achieved with a grafting ratio of 0.88\%.
+
+### 3.7. Trap Level Analysis
+
+According to the thermal shock depolarization current measurements, Figure 8f shows that the trap energy level distributions of PP and the grafted materials both range from 0.6 to 1.1 eV, which result from the deep traps contained in the polymer materials. The maximum trap level density of the grafted material was $9.52 \times 10^{19} \mathrm{~m}^{-3} \cdot \mathrm{eV}^{-1}$, which is significantly better than that of the pure PP. Due to the incorporation of 4 -methylstyrene, deep traps are introduced into the material, so the maximum trap level density of the grafted material is significantly better than that of pure PP.
+
+### 3.8. Influence of Grafting Ratio on the Breakdown Field Strength of Grafted Materials
+
+An insulating material can be broken down into a conductor under the action of an excessively high electric field; thus, the breakdown strength of the modified PP should be tested. Figure 9 shows a fitting diagram of the Weibull distribution of the pure and modified PP with different grafting ratios, while the characteristic breakdown values and shape factors obtained from the fit of the Weibull distribution are tabulated in Table 2. The characteristic breakdown value and shape factor first increase and then decrease. The maximum breakdown characteristic value and shape factor are both obtained at a grafting ratio of 0.88\%. Table 2 shows that the breakdown field strength increased from $257.4 \mathrm{kV} \cdot \mathrm{mm}^{-1}$ to $400.8 \mathrm{kV} \cdot \mathrm{mm}^{-1}$ and the shape factor increased from 14.5 to 31.4. This is due to the existence of large conjugated $\pi$ bonds. After 4-methylstyrene is grafted to the PP molecular chain, delocalized $\pi$ electrons appeared in the system, which lead to a lower ionization potential and higher ionization potential. Molecules with high electron affinity can capture high-energy electrons, and thus prevent them from colliding and breaking molecular chains, thereby improving the breakdown field strength. However, with a grafting ratio above 0.88\%, many deep traps may be formed, resulting in "tunneling" between the deep traps, accumulation of space charges, and a reduction in the breakdown field strength.
+
+![](./images/ada7eebf-3e81-4477-8165-75984ce95b14-10_678_902_1770_614.jpg)
+Figure 9. DC breakdown field strength of materials with different grafting ratios.
+
+Table 2. Breakdown eigenvalues and shape factors of the grafted materials with different grafting ratios.
+| Grafting Ratio (\%) | Breakdown Field Strength ( $\mathrm{kV} \cdot \mathrm{mm}^{-1}$ ) | Shape Factor |
+| :--- | :--- | :--- |
+| 0 | 257.4 | 14.5 |
+| 0.41 | 275.2 | 17.5 |
+| 0.65 | 312.8 | 18.9 |
+| 0.73 | 347.9 | 26.7 |
+| 0.88 | 400.8 | 31.4 |
+| 0.97 | 361.6 | 28.5 |
 
 
-PPC: poly(propylene carbonate); PP: polypropylene; MAH: maleic anhydride; St: styrene.
+## 4. Conclusions
 
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-7_349_1393_1520_360.jpg)
-Figure 7. Reaction equation of PPC and PP-g-(MAH-co-St).
+The aqueous suspension grafting method was used to successfully modify the insulating properties of PP. The following conditions were determined to be optimal for the process: 10 g of PP, 60 mL of dispersant, 2.2 mL of xylene, 0.12 g of benzoyl peroxide, 1.3 mL of 4-methylstyrene, a swelling time of 120 min, and a reaction time of 150 min. Modified PP with a maximum grafting ratio of 0.97\% was obtained. When the graft ratio is 0.88\%, it exhibited good insulating properties, the maximum volume resistivity was 4.4 times that of pure PP ( $5.73 \times 10^{15} \Omega \mathrm{~m}$ ) and the optimal suppression of the space charges and the breakdown field strength presented a maximum value of $400.8 \mathrm{kV} \mathrm{mm}^{-1}$; however, the dielectric constant and dielectric loss were also the highest. The results indicate that the above improvements in performance can be attributed to the grafting of 4-methylstyrene and the introduction of deep traps, which significantly reduced charge mobility and the presence of delocalized $\pi$ electrons in the system, which reduced the ionization potential and increased the electron affinity of the modified PP, meaning that it could trap and dissipate the energy of high-energy electrons. In summary, the modified PP is expected to provide a novel idea for the further development of HVDC cable insulation materials.
 
-the PPC was degradable, while none of the PP and PP- $g$ (MAH-co-St) was degradable. The degradation rate of the PPC/PP slices was improved by the addition of PP- $g$-(MAH- $c o$-St). The effect of PP- $g$-(MAH- $c o$-St) $\left(G_{\text {MAH }}=1.51 \%\right)$ was better than that of PP- $g$-(MAH$c o-\mathrm{St})\left(G_{\mathrm{MAH}}=0.94 \%\right)$ at 2\% content. The degradation rate of the PPC/PP slices decreased when the PP- $g$-(MAH$\operatorname{co}-\mathrm{St})\left(G_{\mathrm{MAH}}=1.51 \%\right)$ content was 8\%. Therefore, the degradation rate of the PPC/PP slices may decrease by the addition of excess PP- $g$-(MAH-co-St). The degradation rate of the PPC/PP slices reached 3.91\% in PBS (pH = 7.7) after 30 days. PPC was degraded by chemical hydrolysis, random hydrolysis, and microbial degradation in PBS. The compatibilizer enhanced the interaction between PPC and PP by the addition of PP- $g-(\mathrm{MAH}-\mathrm{co}-\mathrm{St})$. This expansion led to the presentation of interior surface area and allowed the PBS solution to penetrate into slices for further degradation. ${ }^{22}$ These results provide basic data for the preparation of biodegradable meltblown nonwoven fabrics.
+Author Contributions: Y.Z.: Conceptualization, Project administration, Computational resources, Funding acquisition. K.S.: Formal analysis, Data curation, Writing-original draft, Visualization. W.W.: Methodology, Investigation, Writing-review and editing. C.X.: Supervision, review. J.Z.: Supervision, review. C.Z.: Supervision, review. All authors have read and agreed to the published version of the manuscript.
 
-## Reaction mechanism of PPC with PP-g-(MAH-co-St)
+Funding: This research was funded by the Guangxi Bagui Young Scholars Special Funding and the National Natural Science Foundation of China (51867003).
 
-The results indicate that ring-opening reactions between the anhydride functional groups of MAH occur on the main chains of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ and PPC. ${ }^{23}$ The
-reaction equation of PPC and PP- $g$-(MAH- $c o$-St) is shown in Figure 7. To confirm this ring-opening reaction, PPC and PP- $g-(\mathrm{MAH}-c o-\mathrm{St})\left(G_{\text {MAH }}=1.51 \%\right)$ at the ratio of 60/40 (w/w) were reacted by melt blending.
-
-The FT-IR and ${ }^{1} \mathrm{H}$ NMR spectra of PP- $g$-(MAH- $c o$-St) and PPC/PP- $g$-(MAH-co-St) are shown in Figures 8 and 9, respectively. As shown in Figure 8, the characteristic peak of the anhydride functional groups of MAH on the main chains of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ at $1856 \mathrm{~cm}^{-1}$ disappeared or shifted in PPC/PP- $g$-(MAH-co-St), thus proving that a ring-opening reaction had occurred.
-
-As shown in Figure 9, the peak of "1" of PP- $g$-(MAHco-St) ranging from 2 to 2.5 ppm either disappeared or shifted in PPC/PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$, which also proves that a ring-opening reaction had occurred between PPC and PP- $g$-(MAH-co-St). Thus, the compatibility of PPC and PP- $g-(M A H-c o-S t)$ can be promoted by the mutual effect of chemical reaction.
-
-The PP chain of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$ and the PP of the PPC/PP slices are compatible and feature favorable cocrystallization. The most advantageous conformation must be obtained from their interface to promote compatibility. The interface bonding forces are less, the
-
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-8_456_713_1270_220.jpg)
-Figure 8. FT-IR spectra of PP-g-(MAH-co-St) and PPC/PP-g(MAH-co-St).
-
-## Conclusion
-
-The results showed that PP- $g$-(MAH-co-St) with three different grafting proportions could be prepared by melt grafting. MAH in the form of cyclic anhydride was also grafted onto the main chains of PP successfully.
-
-The effect of different contents and grafting proportions of PP- $g$-(MAH-co-St) on the performance of the PPC/PP slices was studied. The compatibility between PPC and PP was improved by the addition of PP- $g-(\mathrm{MAH}-c o-\mathrm{St})$. PPC/ PP slices had higher tensile strengths and lower MFRs at higher contents and grafting proportions of PP- $g$-(MAHco-St) than lower ones. The thermal decomposition temperatures of the PPC/PP slices were improved when the content of PP-g-(MAH-co-St) was increased. The impact of different grafting proportions of PP- $g$-(MAH-co-St) on the thermal decomposition temperatures of the PPC/PP slices was less. The degradation rate of the PPC/PP slices was improved by the addition of moderate amounts of PP- $g$-(MAH-co-St).
-
-Ring-opening reactions, increased interface adhesion forces, and reduced interfacial tension may be the mechanisms of PP- $g$-(MAH-co-St). To endow PPC/PP slices with better application potential, further studies will be conducted to prepare biodegradable meltblown nonwoven fabrics using PPC/PP slices.
-
-![](./images/9a6428e2-7aaa-40bc-b1e7-d72c4e55cd9e-8_575_1679_1903_172.jpg)
-Figure 9. ${ }^{1} \mathrm{H}$ NMR spectra of PP-g-(MAH-co-St) and PPC/PP-g-(MAH-co-St).
-
-## Declaration of conflicting interests
-
-The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.
-
-## Funding
-
-The author(s) disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: The authors would like to thank the Hainan Province Research and Development Project (ZDYF2016016), the Open Project Program of Key Laboratory of Advanced Materials of Tropical Island Resources (Hainan University), Ministry of Education (AM2017-26), National Natural Science Fund of China (51663010), for their financial support. This study was also supported by the Hainan Provincial Fine Chemical Engineering Research Center, the Analytical and Testing Center of Hainan University.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
 
 ## References
 
-1. Roder H and Vogl O. 17th international Herman F. Mark symposium: polypropylene-a material of the future. Prog Polym Sci 1999; 24: 1205-1216.
-2. Kim DH, Fasulo PD, Rodgers WR, et al. Structure and properties of polypropylene-based nanocomposites: effect of PP-g-MA to organoclay ratio. Polymer 2007; 48: 5308-5323.
-3. Dubnikova IL, Berezina SM, Korolev YM, et al. Morphology, deformation behavior and thermomechanical properties of polypropylene/maleic anhydride grafted polypropylene/layered silicate nanocomposites. J Appl Polym Sci 2007; 105: 3836-3850.
-4. Cartier H and Hu GH. Styrene-assisted melt free radical grafting of glycidyl methacrylate onto polypropylene. $J$ Polym Sci Part A Polym Chem 1998; 36(7): 1053-1063.
-5. Li Y, Xie XM and Guo BH. Study on styrene-assisted melt free-radical grafting of maleic anhydride onto polypropylene. Polymer 2001; 42: 3419-3425.
-6. Lee J, Kim JK and Son Y. Evaluation of polypropylene grafted with maleic anhydride and styrene as a compatibilizer for polypropylene/clay nanocomposites. Polym Bull 2012; 68: 541-551.
-7. Wang Y, Chen FB, Li YC, et al. Melt processing of polypropylene/clay nanocomposites modified with maleated polypropylene compatibilizers. Compos Part B Eng 2004; 35: 111-124.
-8. Xu J, Li RKY, Xu Y, et al. Preparation of poly(propylene carbonate)/organo-vermiculite nanocomposites via direct melt intercalation. Eur Polym J 2005; 41(4): 881-888.
-9. Xu J, Li RKY, Meng YZ, et al. Biodegradable poly(propylene carbonate)/montmorillonite nanocomposites prepared by direct melt intercalation. Mater Res Bull 2006; 41(2): 244-252.
-10. Ge XC, Li XH, Zhu Q, et al. Preparation and properties of biodegradable poly(propylene carbonate)/starch composites. Polym Eng Sci 2004; 44(11): 2134-2140.
-11. Zhang ZH, Mo ZS, Zhang HF, et al. Crystallization and melting behaviors of PPC-BS/PVA blends. Macromol Chem Phys 2003; 204: 1557-1566.
-12. Jiao J, Wang S, Meng Y, et al. Processability, property, and morphology of bio-degradable blends of poly(propylene carbonate) and poly(ethylene-co-vinyl alcohol). Polym Eng Sci 2007; 47(2): 174-180.
-13. Li J, Lai MF and Liu JJ. Effect of poly(propylene carbonate) on the crystallization and melting behavior of poly( $\beta$ hydroxybutyrate-co- $\beta$-hydroxyvalerate). J Appl Polym Sci 2004; 92: 2514-2521.
-14. Pang H, Liao B, Huang Y, et al. Blends of PPC/NR elastomer I. Formula design. Polym Mater Sci Eng 2002; 18(2): 71-73.
-15. Ma XF, Yu JG, Wang N, et al. Compatibility characterization of poly(lactic acid)/poly(propylene carbonate) blends. $J$ Polym Sci Part B Polym Phys 2006; 44: 94-101.
-16. Zhang YC, Zhu HY, Wu HY, et al. The composite fiber materials of montmorillonite/polypropylene/polylactic acid and its preparation method. CN 200810203171.9, 2009, in Chinese.
-17. Zhang YC, Qin Y, Wu HY, et al. The composite fiber materials of nanometer zinc oxide/polypropylene/polylactic acid and its preparation method. CN 200810203172.3, 2009, in Chinese.
-18. Zhang YC, Zhou J, Wu HY, et al. The composite fiber materials of carbon nanotubes/polypropylene/polylactic acid and its preparation method. CN 200810203173.8, 2009, in Chinese.
-19. Wang JH and He A. Bio-based and biodegradable aliphatic polyesters modified by a continuous alcoholysis reaction. Green Polym Chem 2010; 29: 425-437.
-20. Xu J, Ban H, Ye C, et al. The long-term stress aging on the structure and properties of nylon 6. Polym Mater Sci Eng 2010; 26(6): 79-85.
-21. Fu Y, Liu Y, Zhang L, et al. Molecular simulation of the glass transition of different configuration of polypropylene. J Mol Sci 2009; 25(1): 1-4.
-22. Tao J, Song C, Cao M, et al. Thermal properties and degradability of poly(propylene carbonate)/poly( $\beta$ hydroxybutyrate-co- $\beta$-hydroxyvalerate)(PPC/PHBV) blends. Polym Degrad Stab 2009; 94: 575-583.
-23. Diao JZ, Yang HF, Zhang JM, et al. Preparation and characterization of PP and PP-g-(MAH-co-St)/hyperbranched poly(amide-ester) blends. Iran Polym J 2007; 16(2): 97-104.
-24. Kim HS, Lee BH, Choi SW, et al. The effect of types of maleic anhydride-grafted properties of bio-flour-filled polypropylene composites. Compos Part A 2007; 38: 1473-1482.
-25. Dedecker K and Groeninckx G. Interfacial graft copolymer formation during reactive melt blending of polyamide 6 and styrene-maleic anhydride copolymers. Macromolecules 1999; 32: 2472-2479.
-26. Tang T, Chen H, Zhang X, et al. Molecular state of polymer in the interfacial area of polyolefin and polar polymers. Acta Polym Sin 1996; 3: 336-341.
+1. He, J.; Peng, L.; Zhou, Y. Research progress of environment-friendly HVDC power cable insulation materials. High Volt. Eng. 2017, 43, 337-343.
+2. Montanar, G.C.; Laurent, C.; Teyssedre, G.; Campus, A.; Nilsson, U.H. From LDPE to XLPE: Investigating the change of electrical properties. Part I. space charge, conduction and lifetime. IEEE Trans. Dielectr. Electr. Insul. 2005, 12, 438-446. [CrossRef]
+3. Teyssedre, G.; Laurent, C.; Montanari, G.C.; Campus, A.; Nilsson, U.H. From LDPE to XLPE: Investigating the change of electrical properties. Part II. Luminescence. IEEE Trans. Dielectr. Electr. Insul. 2005, 12, 447-454. [CrossRef]
+4. Green, C.D.; Vaughan, A.S.; Stevens, G.C.; Pye, A.; Sutton, S.J.; Geussens, T.; Fairhurst, M.J. Thermoplastic cable insulation comprising a blend of isotactic polypropylene and a propylene-ethylene copolymer. IEEE Trans. Dielectr. Electr. Insul. 2015, 22, 639-648. [CrossRef]
+5. Hosier, I.L.; Vaughan, A.S.; Swingler, S.G. An investigation of the potential of ethylene vinyl acetate/polyethylene blends for use in recyclable high voltage cable insulation systems. J. Mater. Sci. 2010, 45, 2747-2759. [CrossRef]
+6. Fu, M.; Chen, G.; Dissado, L.A.; Fothergill, J.C. Influence of thermal treatment and residues on space charge accumulation in XLPE for DC power cable application. IEEE Trans. Dielectr. Electr. Insul. 2007, 14, 53-64. [CrossRef]
 
-[^0]:    ${ }^{1}$ Key Laboratory of Advanced Materials of Tropical Island Resources of Ministry of Education, School of Chemical Engineering and Technology, Hainan University, Haikou, Hainan, China
-    ${ }^{2}$ Dencare(Chongqing) Oral Care Co., Ltd, Chongqing, China
-    Corresponding author:
-    Lisha Pan, Hainan University, Haikou 570228, China.
-    Email: happylisap@hainanu.edu.cn
-
+7. Yuan, X.; Chung, T.C.M. Cross-linking effect on dielectric properties of polypropylene thin films and applications in electric energy storage. Appl. Phys. Lett. 2011, 98, 062901. [CrossRef]
+8. Hosier, I.L.; Vaughan, A.S.; Swingler, S.G. An investigation of the potential of polypropylene and its blends for use in recyclable high voltage cable insulation systems. J. Mater. Sci. 2011, 46, 4058-4070. [CrossRef]
+9. Dang, B.; He, J.; Hu, J.; Zhou, Y. Tailored sPP/Silica nanocomposite for ecofriendly insulation of extruded HVDC cable. J. Nanomater. 2015, 16, 439. [CrossRef]
+10. Lau, K.Y.; Vaughan, A.S.; Chen, G.; Hosier, I.L.; Holt, A.F.; Ching, K.Y. On the space charge and DC breakdown behavior of polyethylene/silica nanocomposites. IEEE Trans. Dielectr. Electr. Insul. 2014, 21, 340-351. [CrossRef]
+11. Pitsa, D.; Danikas, M.G.; Vardakis, G.E.; Tanaka, T. Influence of homocharges and nanoparticles in electrical tree propagation under DC voltage application. Electr. Eng. 2012, 94, 81-88. [CrossRef]
+12. Danikas, M.G.; Tanaka, T. Nanocomposites-A review of electrical treeing and breakdown. IEEE Electr. Insul. Mag. 2009, 25, 19-25. [CrossRef]
+13. Mazzanti, G.; Chen, G.; Fothergill, J.C. A protocol for space charge measurements in full-size HVDC extruded cables. IEEE Trans. Dielectr. Electr. Insul. 2015, 22, 21-34. [CrossRef]
+14. Zha, J.; Wu, Y.; Wang, S.; Wu, D.; Yan, H.; Dang, Z. Improvement of space charge suppression of polypropylene for potential application in HVDC cables. IEEE Trans. Dielectr. Electr. Insul. 2016, 23, 2337-2343. [CrossRef]
+15. Liang, Y.; Weng, L.; Zhang, W. Preparation and electrical properties of 4-allyloxy-2-hydroxybenzophenone grafted polypropylene for HVDC cables. J. Electron. Mater. 2021, 50, 6228-6236. [CrossRef]
+16. Zhou, Y.; Hu, J.; Dang, B.; He, J. Mechanism of highly improved electrical properties in polypropylene by chemical modification of grafting maleic anhydride. J. Phys. D-Appl. Phys. 2016, 49, 415301. [CrossRef]
+17. Dang, B.; Hu, J.; Zhou, Y.; He, J. Remarkably improved electrical insulating performances of lightweight polypropylene nanocomposites with fullerene. J. Phys. D-Appl. Phys. 2017, 50, 45503. [CrossRef]
+18. Liu, W.; Cheng, L.; Li, S. Review of electrical properties for polypropylene based nanocomposite. Compos. Commun. 2018, 10, 221-225. [CrossRef]
+19. Zhou, Y.; Hu, J.; Chen, X.; Yu, F.; He, J. Thermoplastic polypropylene/aluminum nitride nanocomposites with enhanced thermal conductivity and low dielectric loss. IEEE Trans. Dielectr. Electr. Insul. 2016, 23, 2768-2776. [CrossRef]
+20. Yang, J.; Wang, X.; Zhao, H.; Zhang, W.; Xu, M. Influence of moisture absorption on the DC conduction and space charge property of MgO/LDPE nanocomposite. IEEE Trans. Dielectr. Electr. Insul. 2014, 21, 1957-1964. [CrossRef]
+21. Tian, F.; Yao, J.; Li, P.; Wang, Y.; Wu, M.; Li, Q. Stepwise electric field induced charging current and its correlation with space charge formation in LDPE/ZnO nanocomposite. IEEE Trans. Dielectr. Electr. Insul. 2015, 22, 1232-1239. [CrossRef]
+22. Li, S.; Zhao, N.; Nie, Y.; Wang, X.; Chen, G.; Teyssedre, G. Space charge characteristics of LDPE nanocomposite/LDPE insulation system. IEEE Trans. Dielectr. Electr. Insul. 2015, 22, 92-100. [CrossRef]
+23. Huang, X.; Liu, F.; Jiang, P. Effect of nanoparticle surface treatment on morphology, electrical and water treeing behavior of LLDPE composites. IEEE Trans. Dielectr. Electr. Insul. 2010, 17, 1697-1704. [CrossRef]
+24. Liu, G. Grafting copolymerization of cationic vinyl monomer with quaternary ammonium groups onto polypropylene. Iran. J. Chem. Chem. Eng. 2015, 34, 17-23.
+25. Dou, Q.; Duan, J. Melting and crystallization behaviors, morphology, and mechanical properties of $\beta$-polypropylene/polypropylenegraft-maleic anhydride/calcium sulfate whisker composites. Polym. Compos. 2015, 37, 2121-2132. [CrossRef]
+26. Badrossamay, M.R.; Sun, G. Graft polymerization of N-tert-butylacrylamide onto polypropylene during melt extrusion and biocidal properties of its products. Polym. Eng. Sci. 2009, 49, 359-368. [CrossRef]
+27. Chen, L.; Wong, B.; Baker, W.E. Melt grafting of glycidyl methacrylate onto polypropylene and reactive compatibilization of rubber toughened polypropylene. Polym. Eng. Sci. 1996, 36, 1594-1607. [CrossRef]
+28. Fei, J.; Xin, H. Grafting of styrene on to polypropylene by water phase suspension method. Petrochem. Technol. 2006, 35, 638-642.
