@@ -1,0 +1,75 @@
+name: Export RAG Markdown
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  ROOT_PATH: "گرافت/RAG/PP-g-St-co-GMA Suspension"
+  FOLDER_START: "1"
+  FOLDER_COUNT: "20"
+  IMAGE_DIR_NAME: "images"
+  ARTIFACT_NAME: "rag-markdown"
+  ARTIFACT_RETENTION_DAYS: "7"
+
+jobs:
+  export-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout RAG Markdown files only
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            گرافت/RAG/PP-g-St-co-GMA Suspension/*/*.md
+            گرافت/RAG/PP-g-St-co-GMA Suspension/*/images
+          sparse-checkout-cone-mode: false
+
+      - name: Compute target folder range
+        id: range
+        shell: bash
+        run: |
+          set -euo pipefail
+          folder_end=$((FOLDER_START + FOLDER_COUNT - 1))
+          echo "folder_end=${folder_end}" >> "$GITHUB_OUTPUT"
+
+      - name: Collect Markdown and create manifest
+        shell: bash
+        env:
+          FOLDER_END: ${{ steps.range.outputs.folder_end }}
+        run: |
+          set -euo pipefail
+          rm -rf artifact-markdown
+          mkdir -p artifact-markdown
+          printf 'folder\tfilename\tsize_bytes\tsource_path\n' > artifact-markdown/manifest.tsv
+
+          for folder in $(seq "${FOLDER_START}" "${FOLDER_END}"); do
+            source="${ROOT_PATH}/${folder}"
+            destination="artifact-markdown/${folder}"
+            mkdir -p "${destination}"
+            found=0
+
+            if [ -d "${source}" ]; then
+              while IFS= read -r -d '' file; do
+                found=1
+                filename="$(basename "$file")"
+                size=$(stat -c '%s' "$file")
+                cp "$file" "$destination/"
+                printf '%s\t%s\t%s\t%s\n' "${folder}" "${filename}" "${size}" "${file}" >> artifact-markdown/manifest.tsv
+              done < <(find "${source}" -maxdepth 1 -type f -name '*.md' -print0)
+            fi
+
+            if [ "${found}" -eq 0 ]; then
+              printf '%s\t\t0\tMISSING MARKDOWN\t%s\n' "${folder}" "${source}" >> artifact-markdown/manifest.tsv
+            fi
+          done
+
+      - name: Upload Markdown artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: artifact-markdown/
+          retention-days: ${{ env.ARTIFACT_RETENTION_DAYS }}
+          compression-level: 6
