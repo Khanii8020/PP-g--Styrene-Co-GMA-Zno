@@ -1,5 +1,6 @@
 name: Export RAG Images
 
+# dynamic-recovery-workflow
 on:
   push:
     branches:
@@ -17,13 +18,25 @@ env:
 jobs:
   export-images:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Build dynamic sparse paths
+        id: paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          folder_end=$((FOLDER_START + FOLDER_COUNT - 1))
+          {
+            echo "sparse_paths<<EOF"
+            for folder in $(seq "${FOLDER_START}" "${folder_end}"); do
+              printf '%s\n' "${ROOT_PATH}/${folder}/${IMAGE_DIR_NAME}"
+            done
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Checkout RAG image directories only
         uses: actions/checkout@v5
         with:
-          sparse-checkout: |
-            گرافت/RAG/PP-g-St-co-GMA Suspension/*/images
+          sparse-checkout: ${{ steps.paths.outputs.sparse_paths }}
           sparse-checkout-cone-mode: false
 
       - name: Compute target folder range
@@ -31,9 +44,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          folder_start="${FOLDER_START}"
-          folder_count="${FOLDER_COUNT}"
-          folder_end=$((folder_start + folder_count - 1))
+          folder_end=$((FOLDER_START + FOLDER_COUNT - 1))
           echo "folder_end=${folder_end}" >> "$GITHUB_OUTPUT"
 
       - name: Collect RAG images and create manifest
@@ -44,29 +55,25 @@ jobs:
           set -euo pipefail
           mkdir -p artifact-images
           printf 'folder\tfilename\tsize_bytes\tstatus\tsource_path\n' > artifact-images/manifest.tsv
-
           for folder in $(seq "${FOLDER_START}" "${FOLDER_END}"); do
             source="${ROOT_PATH}/${folder}/${IMAGE_DIR_NAME}"
             destination="artifact-images/${folder}"
             mkdir -p "${destination}"
-
             if [ ! -d "${source}" ]; then
               printf '%s\t\t0\tMissing Image Directory\t%s\n' "${folder}" "${source}" >> artifact-images/manifest.tsv
               continue
             fi
-
             found=0
             while IFS= read -r -d '' file; do
               found=1
-              filename="${file#"${source}"/}"
+              filename="${file#${source}/}"
               size=$(stat -c '%s' "$file")
+              mkdir -p "${destination}/$(dirname "${filename}")"
+              cp "$file" "${destination}/${filename}"
               printf '%s\t%s\t%s\tOK\t%s\n' "${folder}" "${filename}" "${size}" "${file}" >> artifact-images/manifest.tsv
             done < <(find "${source}" -type f -print0)
-
             if [ "${found}" -eq 0 ]; then
               printf '%s\t\t0\tEmpty Image Directory\t%s\n' "${folder}" "${source}" >> artifact-images/manifest.tsv
-            else
-              cp -R "${source}"/. "${destination}/"
             fi
           done
 
