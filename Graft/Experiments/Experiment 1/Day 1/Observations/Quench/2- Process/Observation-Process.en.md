@@ -10,6 +10,8 @@ This document covers only the contents of **Quench/2- Process** for Experiment 1
 
 The visual descriptions are based on reviewable frames from all five videos and the still photograph. Elapsed experimental times such as 10 or 30 minutes are quoted from the README; they are not the durations of the video files. The actual clips are only about 5.8 to 19.3 seconds long.
 
+The media review in this document is visual. The audio tracks of the MP4 files have not been transcribed or analyzed, and no claims are based on audio content.
+
 This document does not enter the sediment-collection folders or other experimental stages. No results from those stages have been imported into this record.
 
 ## 2. Summary of the Recorded Process
