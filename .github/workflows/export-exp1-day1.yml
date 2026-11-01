@@ -1,4 +1,4 @@
-name: Export Experiment 1 Day 1 Observations
+name: Export Experiment 1 Day 1 and referenced RAG sources
 
 on:
   push:
@@ -11,40 +11,59 @@ permissions:
   contents: read
 
 jobs:
-  export-exp1-day1:
+  export-sources:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Experiment 1 Day 1 only
+      - name: Checkout only Experiment 1 Day 1 and referenced RAG sources
         uses: actions/checkout@v5
         with:
           sparse-checkout: |
             Graft/Experiments/Experiment 1/Day 1
+            Graft/RAG/PP-g-St-co-GMA Suspension/4
+            Graft/RAG/PP-g-St-co-GMA Suspension/7
+            Graft/RAG/PP-g-St-co-GMA Suspension/16
+            Graft/RAG/PP-g-St-co-GMA Suspension/21
+            Graft/RAG/PP-g-St-co-GMA Suspension/دستوالعمل آزمایشگاهی-سناریو.docx
+            Graft/RAG/PP-g-St-co-GMA Suspension/دستوالعمل آزمایشگاهی-سناریو.pdf
           sparse-checkout-cone-mode: false
 
       - name: Collect source files and create manifest
         shell: bash
         run: |
           set -euo pipefail
-          source="Graft/Experiments/Experiment 1/Day 1"
-          destination="artifact-exp1-day1"
+          destination="artifact-exp1-and-sources"
           mkdir -p "$destination"
           printf 'path\tsize_bytes\tsha256\n' > "$destination/manifest.tsv"
-          while IFS= read -r -d '' file; do
-            relative="${file#${source}/}"
-            target="$destination/$relative"
-            mkdir -p "$(dirname "$target")"
-            cp "$file" "$target"
-            size="$(stat -c '%s' "$file")"
-            sha="$(sha256sum "$file" | awk '{print $1}')"
-            printf '%s\t%s\t%s\n' "$relative" "$size" "$sha" >> "$destination/manifest.tsv"
-          done < <(find "$source" -type f -print0 | sort -z)
-          test -s "$destination/manifest.tsv"
+          for source in "Graft/Experiments/Experiment 1/Day 1" "Graft/RAG/PP-g-St-co-GMA Suspension/4" "Graft/RAG/PP-g-St-co-GMA Suspension/7" "Graft/RAG/PP-g-St-co-GMA Suspension/16" "Graft/RAG/PP-g-St-co-GMA Suspension/21"; do
+            if [ -d "$source" ]; then
+              while IFS= read -r -d '' file; do
+                relative="$file"
+                target="$destination/$relative"
+                mkdir -p "$(dirname "$target")"
+                cp "$file" "$target"
+                size="$(stat -c '%s' "$file")"
+                sha="$(sha256sum "$file" | awk '{print $1}')"
+                printf '%s\t%s\t%s\n' "$relative" "$size" "$sha" >> "$destination/manifest.tsv"
+              done < <(find "$source" -type f -print0 | sort -z)
+            fi
+          done
+          for file in "Graft/RAG/PP-g-St-co-GMA Suspension/دستوالعمل آزمایشگاهی-سناریو.docx" "Graft/RAG/PP-g-St-co-GMA Suspension/دستوالعمل آزمایشگاهی-سناریو.pdf"; do
+            if [ -f "$file" ]; then
+              target="$destination/$file"
+              mkdir -p "$(dirname "$target")"
+              cp "$file" "$target"
+              size="$(stat -c '%s' "$file")"
+              sha="$(sha256sum "$file" | awk '{print $1}')"
+              printf '%s\t%s\t%s\n' "$file" "$size" "$sha" >> "$destination/manifest.tsv"
+            fi
+          done
+          test "$(wc -l < "$destination/manifest.tsv")" -gt 1
 
-      - name: Upload Experiment 1 Day 1 artifact
+      - name: Upload referenced source artifact
         uses: actions/upload-artifact@v6
         with:
-          name: exp1-day1-observations
-          path: artifact-exp1-day1/
+          name: exp1-day1-and-referenced-sources
+          path: artifact-exp1-and-sources/
           if-no-files-found: error
           retention-days: 3
           compression-level: 0
