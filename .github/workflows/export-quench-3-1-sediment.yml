@@ -14,9 +14,14 @@ jobs:
   export:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout only the selected observation folder
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            Graft/Experiments/Experiment 1/Day 1/Observations/Quench/3_1- Sediment
+          sparse-checkout-cone-mode: true
 
-      - name: Copy only selected observation folder
+      - name: Copy selected folder files
         shell: bash
         run: |
           set -euo pipefail
